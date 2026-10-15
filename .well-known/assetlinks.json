@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.theserver62glitch.naknak",
+    "sha256_cert_fingerprints": [
+      "08:C7:86:86:D5:53:3E:41:AB:DC:D8:7C:EE:5B:87:ED:FA:15:BC:30:15:DD:A0:56:D6:AC:1F:0A:D6:32:44:11"
+    ]
+  }
+}]
