@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>밀프렙 플래너</title>
+<meta name="description" content="예산에 맞춰 일주일 도시락 메뉴와 장보기 목록을 짜 드려요">
+<meta name="theme-color" content="#1f7a52">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <span class="brand" data-t="title">밀프렙 플래너</span>
+  <select id="lang" aria-label="Language">
+    <option value="ko">한국어</option><option value="en">English</option><option value="ja">日本語</option>
+  </select>
+</header>
+
+<main>
+  <div id="planBar" class="card planbar" hidden>
+    <span id="planSum"></span>
+    <button type="button" id="edit" data-t="edit"></button>
+  </div>
+
+  <section class="hero" id="hero">
+    <h1 id="hook">한 끼 4,000원으로 일주일 도시락, 될까?</h1>
+    <p data-t="hookSub"></p>
+  </section>
+
+  <form id="form" class="card">
+    <fieldset>
+      <legend><span data-t="goal"></span> <span class="hint" data-t="goalHint"></span></legend>
+      <div class="chips" id="goals"></div>
+    </fieldset>
+    <label class="budget"><span class="label"><span data-t="budget"></span> <b id="budgetOut"></b></span>
+      <input name="budget" type="range" min="2000" max="10000" step="500" value="4000">
+    </label>
+    <div class="ingr">
+      <span class="label" id="haveLabel"><span data-t="haveLabel"></span> <span class="hint" data-t="haveHint"></span></span>
+      <div class="addrow">
+        <input id="haveInput" type="text" list="ingList" enterkeyhint="done" autocomplete="off" data-ph="inputPh" aria-labelledby="haveLabel">
+        <button type="button" id="haveAdd" data-t="add"></button>
+      </div>
+      <p id="haveMiss" class="note" hidden></p>
+      <div class="chips" id="haveChips"></div>
+    </div>
+    <details id="more">
+      <summary id="moreSum"></summary>
+      <div class="row">
+        <label><span class="label" data-t="people"></span><select name="people"></select></label>
+        <label><span class="label" data-t="days"></span><select name="days"></select></label>
+        <label><span class="label" data-t="perDay"></span><select name="perDay"></select></label>
+      </div>
+      <span class="label" id="banLabel" data-t="banLabel"></span>
+      <div class="addrow">
+        <input id="banInput" type="text" list="ingList" enterkeyhint="done" autocomplete="off" data-ph="inputPh" aria-labelledby="banLabel">
+        <button type="button" id="banAdd" data-t="add"></button>
+      </div>
+      <p id="banMiss" class="note" hidden></p>
+      <div class="chips" id="banChips"></div>
+      <span class="label" data-t="exclude"></span>
+      <div class="chips small" id="exclude"></div>
+    </details>
+    <datalist id="ingList"></datalist>
+    <button type="submit" class="primary" data-t="make"></button>
+  </form>
+
+  <div id="result" hidden>
+    <section class="card summary" id="summary"></section>
+
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" data-tab="menu" id="tab-menu"></button>
+      <button type="button" role="tab" data-tab="shop" id="tab-shop"></button>
+      <button type="button" role="tab" data-tab="steps" id="tab-steps"></button>
+    </div>
+
+    <section class="card panel" id="panel-menu" role="tabpanel">
+      <ul id="menu" class="menu"></ul>
+      <button type="button" id="again" data-t="again"></button>
+    </section>
+
+    <section class="card panel" id="panel-shop" role="tabpanel">
+      <!-- 쿠팡 가이드: 대가 문구는 "제목 또는 첫 부분"에 → 장보기 탭 맨 위 -->
+      <p id="affiliate" class="note" data-t="affiliate" hidden></p>
+      <div class="progress"><span id="progressText"></span><span class="bar"><i id="progressBar"></i></span></div>
+      <p id="allDone" class="verdict" hidden data-t="allDone"></p>
+      <label class="check"><input type="checkbox" id="skipPantry" checked> <span data-t="skipPantry"></span></label>
+      <ul id="shop" class="shop"></ul>
+      <!-- 쿠팡 링크(money.js BUY_LINKS)가 하나라도 있을 때만 보인다 -->
+      <div id="gearCard" hidden>
+        <h2 data-t="gear"></h2>
+        <ul id="gear" class="shop"></ul>
+      </div>
+      <div class="acts"><button type="button" id="copy" data-t="copy"></button><button type="button" id="share" data-t="share"></button></div>
+    </section>
+
+    <section class="card panel" id="panel-steps" role="tabpanel">
+      <p class="note" data-t="stepsHint"></p>
+      <ol id="steps" class="steps"></ol>
+    </section>
+
+    <aside id="ad" class="ad" hidden data-t="ad"></aside>
+  </div>
+
+  <footer>
+    <details>
+      <summary class="note" id="notesShort"></summary>
+      <p class="note" id="priceNote"></p>
+      <p class="note" data-t="healthNote"></p>
+      <p class="note" data-t="aiNote"></p>
+      <p class="note"><a href="https://theserver62-glitch.github.io/mealprep/privacy.html" target="_blank" rel="noopener" data-t="privacy"></a></p>
+    </details>
+  </footer>
+</main>
+<script src="money.js"></script>
+<script src="logic.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4348 @@
+{
+ "made": "2026-10-17 옴니라우트 gemini/gemini-3.1-flash-lite로 생성. 10/17 오후 단계·시간을 무료 AI(ask.py)로 다시 쓰고 사람이 익힘 시간·완숙 등 9곳 고침. 사람 검토 필요 / 10/19 근육·저가 메뉴 16개 추가(무료 AI 초안 → 단위·익힘·시간 사람이 고침) / 10/19 재료 다양화 14개 추가(새 KAMIS 재료 13개, 주식 빠짐·단위·익힘·보관일 사람이 고침)",
+ "recipes": [
+  {
+   "id": "chicken-breast-brownrice-bowl",
+   "name": {
+    "ko": "닭가슴살 현미밥 도시락",
+    "en": "Chicken Breast & Brown Rice Bowl",
+    "ja": "鶏胸肉と玄米のご飯弁当"
+   },
+   "goals": [
+    "diet",
+    "muscle"
+   ],
+   "protein": "chicken",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "brownrice",
+     "qty": 80
+    },
+    {
+     "id": "chickenbreast",
+     "qty": 130
+    },
+    {
+     "id": "broccoli",
+     "qty": 0.3
+    },
+    {
+     "id": "carrot",
+     "qty": 30
+    },
+    {
+     "id": "garlic",
+     "qty": 10
+    },
+    {
+     "id": "soysauce",
+     "qty": 15
+    },
+    {
+     "id": "sugar",
+     "qty": 5
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    },
+    {
+     "id": "pepper",
+     "qty": 1
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "현미를 씻어 물을 맞추고 밥을 짓는다.",
+      "en": "Rinse the brown rice, adjust the water level, and cook.",
+      "ja": "玄米を洗い、分量の水で炊飯する。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "닭가슴살·당근·브로콜리를 한 입 크기로 썰고, 다진 마늘·간장·설탕을 섞어 양념을 만든다.",
+      "en": "Cut the chicken, carrot and broccoli into bite-size pieces; mix minced garlic, soy sauce and sugar for the sauce.",
+      "ja": "鶏むね肉・にんじん・ブロッコリーを一口大に切り、おろしにんにく・醤油・砂糖を混ぜてタレを作る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 재료를 넣고 양념을 부어 중불에서 7~8분, 닭고기 속까지 하얗게 익을 때까지 볶는다.",
+      "en": "Heat oil in a pan, add the ingredients and sauce, and stir-fry over medium heat for 7-8 minutes until the chicken is cooked through.",
+      "ja": "フライパンに油をひき、材料を入れて調味料を加え、中火で7〜8分、鶏肉の中まで白くなるまで炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 볶은 재료를 용기에 담고 한 김 식힌 뒤 뚜껑을 덮는다.",
+      "en": "Pack the rice and stir-fried ingredients into a container, let cool slightly, and cover.",
+      "ja": "ご飯と炒めた具材を容器に詰め、粗熱を取ってから蓋をする。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "curry-chicken-potato-bowl",
+   "name": {
+    "ko": "카레 닭가슴살 감자 도시락",
+    "en": "Curry Chicken & Potato Bowl",
+    "ja": "カレー風味の鶏胸肉とじゃがいもの弁当"
+   },
+   "goals": [
+    "muscle",
+    "easy"
+   ],
+   "protein": "chicken",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 90
+    },
+    {
+     "id": "chickenbreast",
+     "qty": 120
+    },
+    {
+     "id": "potato",
+     "qty": 80
+    },
+    {
+     "id": "onion",
+     "qty": 40
+    },
+    {
+     "id": "curry",
+     "qty": 15
+    },
+    {
+     "id": "oil",
+     "qty": 8
+    },
+    {
+     "id": "salt",
+     "qty": 2
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥솥에 밥을 짓는다.",
+      "en": "Rinse the rice and cook in a rice cooker.",
+      "ja": "米を研いで炊飯器でご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "닭가슴살, 감자, 양파를 깍둑썰기한다.",
+      "en": "Dice the chicken breast, potatoes, and onions.",
+      "ja": "鶏むね肉、じゃがいも、玉ねぎを角切りにする。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 재료를 볶다가 카레가루와 물을 넣어 감자가 익을 때까지 10분간 조린다.",
+      "en": "Sauté ingredients in an oiled pan, add curry powder and water, and simmer for 10 minutes until potatoes are cooked.",
+      "ja": "フライパンに油をひいて材料を炒め、カレー粉と水を加えてじゃがいもに火が通るまで10分間煮込む。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 카레 닭고기 볶음을 용기에 담아 한 김 식힌다.",
+      "en": "Pack the rice and chicken curry into a container and let cool slightly.",
+      "ja": "ご飯と鶏肉のカレー炒めを容器に詰め、粗熱を取る。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "soy-garlic-chicken-broccoli",
+   "name": {
+    "ko": "마늘 간장 닭가슴살 브로콜리 도시락",
+    "en": "Garlic Soy Chicken Breast & Broccoli",
+    "ja": "ガーリック醤油の鶏むね肉とブロッコリー弁当"
+   },
+   "goals": [
+    "diet",
+    "muscle",
+    "easy"
+   ],
+   "protein": "chicken",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "sweetpotato",
+     "qty": 150
+    },
+    {
+     "id": "chickenbreast",
+     "qty": 130
+    },
+    {
+     "id": "broccoli",
+     "qty": 0.3
+    },
+    {
+     "id": "garlic",
+     "qty": 15
+    },
+    {
+     "id": "soysauce",
+     "qty": 15
+    },
+    {
+     "id": "oystersauce",
+     "qty": 5
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "고구마를 깨끗이 씻어 찜기에 25분간 찐다.",
+      "en": "Wash the sweet potatoes well and steam them for 25 minutes.",
+      "ja": "さつまいもをきれいに洗い、蒸し器で25分間蒸す。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "브로콜리를 끓는 물에 1분 데치고 닭가슴살을 썰고 마늘을 편으로 썬다.",
+      "en": "Blanch the broccoli in boiling water for 1 minute, slice the chicken breast, and thinly slice the garlic.",
+      "ja": "ブロッコリーを熱湯で1分茹で、鶏むね肉を切り、ニンニクを薄切りにする。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 마늘과 닭가슴살을 중불에서 7분, 속까지 익힌 뒤 브로콜리·양념을 넣고 2분 더 볶는다.",
+      "en": "Heat oil in a pan, sauté garlic and chicken breast over medium heat for 7 minutes, then add broccoli and sauce, and stir-fry for 2 more minutes.",
+      "ja": "フライパンに油をひき、ニンニクと鶏むね肉を中火で7分炒めて中まで火を通し、ブロッコリーと調味料を加えてさらに2分炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "찐 고구마와 볶은 닭고기를 도시락에 나누어 담아 식힌다.",
+      "en": "Pack the steamed sweet potatoes and stir-fried chicken into a lunchbox and let cool.",
+      "ja": "蒸したさつまいもと炒めた鶏肉をお弁当箱に分け入れ、冷ます。"
+     }
+    }
+   ],
+   "minutes": 35
+  },
+  {
+   "id": "spicy-pork-shoulder-bowl",
+   "name": {
+    "ko": "매콤 제육볶음 보리밥 도시락",
+    "en": "Spicy Pork Stir-fry with Barley Rice",
+    "ja": "ピリ辛豚肉炒めと麦ご飯弁当"
+   },
+   "goals": [
+    "budget",
+    "muscle"
+   ],
+   "protein": "pork",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "barley",
+     "qty": 40
+    },
+    {
+     "id": "rice",
+     "qty": 50
+    },
+    {
+     "id": "porkshoulder",
+     "qty": 140
+    },
+    {
+     "id": "onion",
+     "qty": 40
+    },
+    {
+     "id": "greenonion",
+     "qty": 20
+    },
+    {
+     "id": "gochujang",
+     "qty": 15
+    },
+    {
+     "id": "gochugaru",
+     "qty": 10
+    },
+    {
+     "id": "soysauce",
+     "qty": 10
+    },
+    {
+     "id": "sugar",
+     "qty": 5
+    },
+    {
+     "id": "garlic",
+     "qty": 10
+    },
+    {
+     "id": "sesameoil",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "보리쌀과 쌀을 섞어 밥을 짓는다.",
+      "en": "Mix barley and rice, then cook.",
+      "ja": "麦と米を混ぜてご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "고추장·고춧가루·간장·설탕·다진 마늘을 섞고, 썬 돼지고기·양파·대파를 버무린다.",
+      "en": "Mix gochujang, chili flakes, soy sauce, sugar and minced garlic; toss with the sliced pork, onion and green onion.",
+      "ja": "コチュジャン・粉唐辛子・醤油・砂糖・おろしにんにくを混ぜ、切った豚肉・玉ねぎ・長ねぎをあえる。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "달군 팬에 양념한 고기를 센 불에서 5분간 바싹 볶은 뒤 참기름을 두른다.",
+      "en": "Stir-fry the seasoned meat in a hot pan over high heat for 5 minutes until dry, then drizzle with sesame oil.",
+      "ja": "熱したフライパンに味付けした肉を入れ、強火で5分間しっかり炒めた後、ごま油を回しかける。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "보리밥과 제육볶음을 도시락 용기에 담아 한 김 식힌다.",
+      "en": "Pack the barley rice and spicy pork stir-fry into a container and let cool slightly.",
+      "ja": "麦ご飯と豚肉の辛味炒めをお弁当箱に詰め、粗熱を取る。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "soy-pork-cabbage-bowl",
+   "name": {
+    "ko": "간장 돼지불고기 양배추 도시락",
+    "en": "Soy Pork & Cabbage Bowl",
+    "ja": "豚肉とキャベツの醤油炒め弁当"
+   },
+   "goals": [
+    "budget",
+    "easy"
+   ],
+   "protein": "pork",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 90
+    },
+    {
+     "id": "porkshoulder",
+     "qty": 120
+    },
+    {
+     "id": "cabbage",
+     "qty": 0.15
+    },
+    {
+     "id": "onion",
+     "qty": 30
+    },
+    {
+     "id": "soysauce",
+     "qty": 15
+    },
+    {
+     "id": "sugar",
+     "qty": 8
+    },
+    {
+     "id": "garlic",
+     "qty": 10
+    },
+    {
+     "id": "sesameoil",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 안친다.",
+      "en": "Rinse the rice and set it to cook.",
+      "ja": "米を研いでご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "돼지고기, 양배추, 양파를 썰어 간장, 설탕, 다진 마늘로 밑간한다.",
+      "en": "Slice the pork, cabbage, and onion, then marinate with soy sauce, sugar, and minced garlic.",
+      "ja": "豚肉、キャベツ、玉ねぎを切り、醤油、砂糖、おろしニンニクで下味をつける。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 재료를 넣고 고기가 완전히 익어 갈색이 돌 때까지 중불에서 볶는다.",
+      "en": "Put ingredients in a pan and stir-fry over medium heat until the meat is fully cooked and browned.",
+      "ja": "フライパンに材料を入れ、肉に完全に火が通り、茶色くなるまで中火で炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "참기름을 섞고 식힌 밥과 양배추 불고기를 용기에 담는다.",
+      "en": "Mix in sesame oil, then pack the cooled rice and cabbage bulgogi into a container.",
+      "ja": "ごま油を混ぜ、冷ましたご飯とキャベツプルコギを容器に詰める。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "pork-neck-veggie-roast",
+   "name": {
+    "ko": "돼지 목살 채소구이 도시락",
+    "en": "Grilled Pork Neck & Veggies",
+    "ja": "豚トロと焼き野菜の弁当"
+   },
+   "goals": [
+    "muscle",
+    "easy"
+   ],
+   "protein": "pork",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "brownrice",
+     "qty": 80
+    },
+    {
+     "id": "porkneck",
+     "qty": 130
+    },
+    {
+     "id": "kingoyster",
+     "qty": 50
+    },
+    {
+     "id": "garlic",
+     "qty": 15
+    },
+    {
+     "id": "salt",
+     "qty": 3
+    },
+    {
+     "id": "pepper",
+     "qty": 2
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "현미를 씻어 밥을 짓는다.",
+      "en": "Rinse the brown rice and cook.",
+      "ja": "玄米を洗い、ご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "목살과 새송이버섯을 깍둑썰기하고 소금, 후추로 밑간한다.",
+      "en": "Dice the pork neck and king oyster mushrooms, then season with salt and pepper.",
+      "ja": "豚トロ（または豚首肉）とエリンギを角切りにし、塩胡椒で下味をつける。"
+     }
+    },
+    {
+     "stage": "oven",
+     "text": {
+      "ko": "에어프라이어에 고기, 마늘, 버섯을 넣고 180도에서 15분간 노릇하게 굽는다.",
+      "en": "Place meat, garlic, and mushrooms in an air fryer and roast at 180°C (356°F) for 15 minutes until golden brown.",
+      "ja": "エアフライヤーに肉、ニンニク、きのこを入れ、180度で15分間こんがりと焼く。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "현미밥과 구운 목살 채소를 도시락에 담아 식힌다.",
+      "en": "Pack the brown rice and roasted pork neck with vegetables into a lunchbox and let cool.",
+      "ja": "玄米ご飯と焼いた豚肉・野菜をお弁当箱に詰め、冷ます。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "beef-bulgogi-brownrice",
+   "name": {
+    "ko": "소불고기 버섯 현미 도시락",
+    "en": "Beef Bulgogi & Mushroom Brown Rice",
+    "ja": "牛プルコギとキノコの玄米弁当"
+   },
+   "goals": [
+    "muscle",
+    "diet"
+   ],
+   "protein": "beef",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "brownrice",
+     "qty": 80
+    },
+    {
+     "id": "beefround",
+     "qty": 120
+    },
+    {
+     "id": "enoki",
+     "qty": 40
+    },
+    {
+     "id": "onion",
+     "qty": 40
+    },
+    {
+     "id": "carrot",
+     "qty": 20
+    },
+    {
+     "id": "soysauce",
+     "qty": 15
+    },
+    {
+     "id": "sugar",
+     "qty": 6
+    },
+    {
+     "id": "garlic",
+     "qty": 10
+    },
+    {
+     "id": "sesameoil",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "현미밥을 짓는다.",
+      "en": "Cook brown rice.",
+      "ja": "玄米ご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "간장·설탕·다진 마늘을 섞어 소고기를 버무리고, 양파·당근·버섯을 썬다.",
+      "en": "Toss the beef with soy sauce, sugar and minced garlic; slice the onion, carrot and mushrooms.",
+      "ja": "醤油・砂糖・おろしにんにくで牛肉をあえ、玉ねぎ・にんじん・きのこを切る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "달군 팬에 고기와 채소를 중불에서 5분, 고기가 익을 때까지 볶다가 마지막에 버섯과 참기름을 넣어 살짝 볶는다.",
+      "en": "Sauté beef and vegetables in a hot pan over medium heat for 5 minutes until cooked, then finish by stirring in mushrooms and sesame oil.",
+      "ja": "熱したフライパンで肉と野菜を中火で5分、火が通るまで炒め、最後にきのことごま油を加えて軽く炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "현미밥과 소불고기를 도시락 통에 정갈하게 담아 식힌다.",
+      "en": "Neatly pack the brown rice and beef bulgogi into a lunchbox and let cool.",
+      "ja": "玄米ご飯と牛プルコギをお弁当箱にきれいに詰め、冷ます。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "beef-oyster-mushroom-stirfry",
+   "name": {
+    "ko": "소고기 느타리 굴소스 볶음밥",
+    "en": "Beef & Oyster Mushroom Stir-fry Rice",
+    "ja": "牛肉とヒラタケのオイスターソース炒めご飯"
+   },
+   "goals": [
+    "muscle",
+    "easy"
+   ],
+   "protein": "beef",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 90
+    },
+    {
+     "id": "beefround",
+     "qty": 110
+    },
+    {
+     "id": "oystermush",
+     "qty": 60
+    },
+    {
+     "id": "greenonion",
+     "qty": 20
+    },
+    {
+     "id": "oystersauce",
+     "qty": 12
+    },
+    {
+     "id": "oil",
+     "qty": 8
+    },
+    {
+     "id": "pepper",
+     "qty": 1
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "백미 밥을 짓는다.",
+      "en": "Cook white rice.",
+      "ja": "白米を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "소고기를 채 썰고 느타리버섯은 찢고 대파는 송송 썬다.",
+      "en": "Julienne the beef, tear the oyster mushrooms into strips, and chop the green onions.",
+      "ja": "牛肉を細切りにし、ヒラタケを裂き、長ネギを小口切りにする。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 파기름을 낸 뒤 고기, 버섯, 굴소스를 넣고 센 불에 3분 볶는다.",
+      "en": "Heat oil in a pan, sauté green onions to flavor the oil, then add beef, mushrooms, and oyster sauce, and stir-fry over high heat for 3 minutes.",
+      "ja": "フライパンに油をひいてネギ油を作り、肉、きのこ、オイスターソースを加えて強火で3分炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 볶은 소고기를 도시락에 나란히 담아 식힌다.",
+      "en": "Pack the rice and stir-fried beef side-by-side into a lunchbox and let cool.",
+      "ja": "ご飯と炒めた牛肉をお弁当箱に並べて詰め、冷ます。"
+     }
+    }
+   ],
+   "minutes": 30
+  },
+  {
+   "id": "beef-brisket-doenjang-bowl",
+   "name": {
+    "ko": "소고기 애호박 된장볶음 덮밥",
+    "en": "Beef & Zucchini Doenjang Stir-fry Bowl",
+    "ja": "牛肉とズッキーニのテンジャン炒め丼"
+   },
+   "goals": [
+    "muscle"
+   ],
+   "protein": "beef",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 80
+    },
+    {
+     "id": "barley",
+     "qty": 20
+    },
+    {
+     "id": "beefbrisket",
+     "qty": 100
+    },
+    {
+     "id": "zucchini",
+     "qty": 0.3
+    },
+    {
+     "id": "onion",
+     "qty": 30
+    },
+    {
+     "id": "doenjang",
+     "qty": 15
+    },
+    {
+     "id": "garlic",
+     "qty": 10
+    },
+    {
+     "id": "gochugaru",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "보리와 백미를 섞어 밥을 짓는다.",
+      "en": "Mix barley and white rice, then cook.",
+      "ja": "大麦と白米を混ぜてご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "애호박과 양파를 썰고 된장, 마늘, 고춧가루로 양념장을 만든다.",
+      "en": "Slice zucchini and onion, and make a seasoning sauce with soybean paste (doenjang), garlic, and chili powder.",
+      "ja": "ズッキーニと玉ねぎを切り、味噌、ニンニク、粉唐辛子でタレを作る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 양지를 구워 기름을 낸 후 채소와 양념장을 넣고 5분간 자작하게 볶는다.",
+      "en": "Sear the brisket in a pan to release the fat, then add vegetables and seasoning sauce, and sauté for 5 minutes until somewhat dry.",
+      "ja": "フライパンで牛ブリスケットを焼いて脂を出し、野菜とタレを加えて5分間汁気がなくなるまで炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "보리밥 위에 된장볶음을 올려 밀폐용기에 담아 식힌다.",
+      "en": "Place the soybean paste stir-fry over the barley rice in an airtight container and let cool.",
+      "ja": "麦ご飯の上に味噌炒めをのせ、密閉容器に入れて冷ます。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "soy-egg-rice-bowl",
+   "name": {
+    "ko": "달걀장 덮밥 도시락",
+    "en": "Soy-Marinated Egg Rice Bowl",
+    "ja": "味付け卵丼弁当"
+   },
+   "goals": [
+    "budget",
+    "easy"
+   ],
+   "protein": "egg",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 90
+    },
+    {
+     "id": "egg",
+     "qty": 2
+    },
+    {
+     "id": "greenonion",
+     "qty": 20
+    },
+    {
+     "id": "cheongyang",
+     "qty": 10
+    },
+    {
+     "id": "soysauce",
+     "qty": 25
+    },
+    {
+     "id": "sugar",
+     "qty": 10
+    },
+    {
+     "id": "sesame",
+     "qty": 3
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "도시락용 쌀밥을 짓는다.",
+      "en": "Cook rice for the lunchbox.",
+      "ja": "お弁当用の白米を炊く。"
+     }
+    },
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "끓는 물에 달걀을 넣고 9분 완숙으로 삶아 찬물에 식힌 뒤 껍질을 벗긴다.",
+      "en": "Boil eggs in water for 9 minutes until hard-boiled, cool in cold water, and peel.",
+      "ja": "沸騰したお湯に卵を入れ、9分間茹でて固ゆで卵にし、冷水で冷やしてから殻をむく。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "간장, 물, 설탕, 썬 대파, 청양고추, 참깨를 섞은 절임장에 달걀을 담근다.",
+      "en": "Soak the eggs in a marinade made of soy sauce, water, sugar, chopped green onion, chili pepper, and sesame seeds.",
+      "ja": "醤油、水、砂糖、刻みネギ、青唐辛子、ごまを混ぜたタレに卵を漬け込む。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "용기에 밥을 담고 반으로 자른 달걀과 소스를 얹어 식힌다.",
+      "en": "Pack rice into a container, top with halved eggs and sauce, and let cool.",
+      "ja": "容器にご飯を盛り、半分に切った卵とソースをのせて冷ます。"
+     }
+    }
+   ],
+   "minutes": 35
+  },
+  {
+   "id": "rolled-omelet-barley-bowl",
+   "name": {
+    "ko": "채소 달걀말이 보리밥 도시락",
+    "en": "Vegetable Omelet & Barley Rice Bowl",
+    "ja": "野菜入り卵焼きと大麦ご飯の弁当"
+   },
+   "goals": [
+    "budget",
+    "easy"
+   ],
+   "protein": "egg",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "barley",
+     "qty": 40
+    },
+    {
+     "id": "rice",
+     "qty": 50
+    },
+    {
+     "id": "egg",
+     "qty": 3
+    },
+    {
+     "id": "carrot",
+     "qty": 20
+    },
+    {
+     "id": "greenonion",
+     "qty": 15
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    },
+    {
+     "id": "salt",
+     "qty": 2
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "보리와 쌀을 섞어 밥을 짓는다.",
+      "en": "Mix barley and rice, then cook.",
+      "ja": "大麦と米を混ぜてご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "당근과 대파를 다지고 달걀에 소금과 함께 넣어 고루 푼다.",
+      "en": "Finely chop carrots and green onions, add to eggs with salt, and whisk evenly.",
+      "ja": "人参と長ネギをみじん切りにし、卵に塩と一緒に加えてよく混ぜる。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 달걀물을 여러 번 나누어 부어가며 두툼하게 말아 익힌다.",
+      "en": "Heat oil in a pan and cook the rolled omelet by pouring in egg mixture in several batches, rolling it up to make it thick.",
+      "ja": "フライパンに油をひき、卵液を数回に分けて流し入れながら、厚みが出るように巻いて焼く。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "한 김 식혀 썬 달걀말이를 보리밥과 함께 용기에 담는다.",
+      "en": "Let the rolled omelet cool slightly, slice it, and pack it into a container with the barley rice.",
+      "ja": "粗熱を取ってから切った卵焼きを、麦ご飯と一緒に容器に詰める。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "tomato-egg-stirfry-bowl",
+   "name": {
+    "ko": "토마토 달걀볶음 현미 도시락",
+    "en": "Tomato Scrambled Egg & Brown Rice Bowl",
+    "ja": "トマトと卵の炒め物玄米弁当"
+   },
+   "goals": [
+    "budget",
+    "diet",
+    "easy"
+   ],
+   "protein": "egg",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "brownrice",
+     "qty": 80
+    },
+    {
+     "id": "egg",
+     "qty": 2
+    },
+    {
+     "id": "tomato",
+     "qty": 120
+    },
+    {
+     "id": "greenonion",
+     "qty": 20
+    },
+    {
+     "id": "oil",
+     "qty": 7
+    },
+    {
+     "id": "salt",
+     "qty": 2
+    },
+    {
+     "id": "sugar",
+     "qty": 4
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "현미밥을 짓는다.",
+      "en": "Cook brown rice.",
+      "ja": "玄米ご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "토마토는 웨지 모양으로 썰고 달걀은 가볍게 풀어둔다.",
+      "en": "Cut tomatoes into wedges and lightly beat the eggs.",
+      "ja": "トマトをくし形に切り、卵は軽く溶いておく。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "대파 기름에 달걀 스크램블을 만든 뒤 토마토, 소금, 설탕을 넣고 2분간 볶는다.",
+      "en": "Scramble eggs in green onion-infused oil, then add tomatoes, salt, and sugar, and stir-fry for 2 minutes.",
+      "ja": "ネギ油でスクランブルエッグを作り、トマト、塩、砂糖を加えて2分間炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "현미밥 옆에 토마토 달걀볶음을 담아 한 김 식힌다.",
+      "en": "Pack the tomato and egg stir-fry next to the brown rice and let cool slightly.",
+      "ja": "玄米ご飯の横にトマトの卵炒めを添え、粗熱を取る。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "spicy-dubu-jorim-bowl",
+   "name": {
+    "ko": "매콤 두부조림 현미 도시락",
+    "en": "Spicy Braised Tofu & Brown Rice Bowl",
+    "ja": "ピリ辛豆腐煮込み玄米弁当"
+   },
+   "goals": [
+    "budget",
+    "diet"
+   ],
+   "protein": "tofu",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "brownrice",
+     "qty": 80
+    },
+    {
+     "id": "tofu",
+     "qty": 160
+    },
+    {
+     "id": "onion",
+     "qty": 30
+    },
+    {
+     "id": "greenonion",
+     "qty": 15
+    },
+    {
+     "id": "soysauce",
+     "qty": 15
+    },
+    {
+     "id": "gochugaru",
+     "qty": 8
+    },
+    {
+     "id": "garlic",
+     "qty": 8
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    },
+    {
+     "id": "sesameoil",
+     "qty": 3
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "현미밥을 짓는다.",
+      "en": "Cook brown rice.",
+      "ja": "玄米ご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "두부를 도톰하게 썰고 간장, 고춧가루, 다진 마늘로 양념장을 만든다.",
+      "en": "Slice tofu into thick pieces and make a seasoning sauce with soy sauce, chili powder, and minced garlic.",
+      "ja": "豆腐を厚めに切り、醤油、粉唐辛子、おろしニンニクでタレを作る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 두부를 노릇하게 부친 뒤 양념장을 붓고 3분간 졸인다.",
+      "en": "Heat oil in a pan, pan-fry tofu until golden brown, pour over the seasoning sauce, and simmer for 3 minutes.",
+      "ja": "フライパンに油をひいて豆腐をこんがりと焼き、タレを注いで3分間煮詰める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "용기에 현미밥과 조린 두부를 정갈하게 채워 식힌다.",
+      "en": "Neatly pack the brown rice and braised tofu into a container and let cool.",
+      "ja": "容器に玄米ご飯と豆腐の煮付けをきれいに盛り付け、冷ます。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "crispy-tofu-mushroom-bowl",
+   "name": {
+    "ko": "구운 두부 새송이 덮밥",
+    "en": "Crispy Tofu & Mushroom Bowl",
+    "ja": "焼き豆腐とエリンギのどんぶり"
+   },
+   "goals": [
+    "budget",
+    "diet"
+   ],
+   "protein": "tofu",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "barley",
+     "qty": 30
+    },
+    {
+     "id": "rice",
+     "qty": 60
+    },
+    {
+     "id": "tofu",
+     "qty": 150
+    },
+    {
+     "id": "kingoyster",
+     "qty": 60
+    },
+    {
+     "id": "soysauce",
+     "qty": 15
+    },
+    {
+     "id": "sugar",
+     "qty": 5
+    },
+    {
+     "id": "sesameoil",
+     "qty": 5
+    },
+    {
+     "id": "oil",
+     "qty": 7
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "보리쌀을 섞어 밥을 안친다.",
+      "en": "Mix barley and rice, then set to cook.",
+      "ja": "大麦を混ぜてご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "두부와 새송이버섯을 깍둑썰기하고 간장, 설탕으로 소스를 만든다.",
+      "en": "Dice the tofu and king oyster mushrooms, and make a sauce with soy sauce and sugar.",
+      "ja": "豆腐とエリンギを角切りにし、醤油と砂糖でソースを作る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 두부와 버섯을 바삭하게 구운 뒤 소스를 넣어 코팅하듯 볶는다.",
+      "en": "Heat oil in a pan, pan-fry the tofu and mushrooms until crispy, then add the sauce and stir to coat.",
+      "ja": "フライパンに油をひき、豆腐ときのこをカリッとするまで焼き、ソースを加えて絡めるように炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "보리밥을 깔고 구운 두부와 버섯을 올려 식힌다.",
+      "en": "Layer the barley rice in a container, top with the crispy tofu and mushrooms, and let cool.",
+      "ja": "容器に麦ご飯を敷き、焼いた豆腐ときのこをのせて冷ます。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "tofu-kimchi-scramble-bowl",
+   "name": {
+    "ko": "두부 김치 스크램블 덮밥",
+    "en": "Tofu & Kimchi Scramble Bowl",
+    "ja": "豆腐キムチスクランブル丼"
+   },
+   "goals": [
+    "budget",
+    "easy"
+   ],
+   "protein": "tofu",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 90
+    },
+    {
+     "id": "tofu",
+     "qty": 150
+    },
+    {
+     "id": "kimchi",
+     "qty": 80
+    },
+    {
+     "id": "greenonion",
+     "qty": 15
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    },
+    {
+     "id": "sesameoil",
+     "qty": 5
+    },
+    {
+     "id": "sugar",
+     "qty": 4
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Rinse the rice and cook.",
+      "ja": "米を研いでご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "김치는 썰고 두부는 면포로 으깨어 물기를 짠다.",
+      "en": "Chop the kimchi, and mash the tofu in a cloth to squeeze out the excess water.",
+      "ja": "キムチを切り、豆腐は布巾で潰して水気を絞る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 김치, 설탕을 볶다가 두부를 넣고 포슬포슬해질 때까지 볶는다.",
+      "en": "Heat oil in a pan, stir-fry kimchi and sugar, then add tofu and stir-fry until it becomes crumbly.",
+      "ja": "フライパンに油をひいてキムチと砂糖を炒め、豆腐を加えてポロポロになるまで炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥 위에 두부 김치 볶음을 얹고 참기름을 둘러 식힌다.",
+      "en": "Serve the tofu kimchi stir-fry over the rice, drizzle with sesame oil, and let cool.",
+      "ja": "ご飯の上に豆腐キムチ炒めをのせ、ごま油を回しかけて冷ます。"
+     }
+    }
+   ],
+   "minutes": 30
+  },
+  {
+   "id": "baked-mackerel-sweetpotato",
+   "name": {
+    "ko": "구운 고등어 고구마 도시락",
+    "en": "Grilled Mackerel & Sweet Potato Bowl",
+    "ja": "焼き鯖とさつまいもの弁当"
+   },
+   "goals": [
+    "diet",
+    "muscle"
+   ],
+   "protein": "fish",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "sweetpotato",
+     "qty": 160
+    },
+    {
+     "id": "mackerel",
+     "qty": 0.5
+    },
+    {
+     "id": "spinach",
+     "qty": 60
+    },
+    {
+     "id": "salt",
+     "qty": 2
+    },
+    {
+     "id": "sesameoil",
+     "qty": 5
+    },
+    {
+     "id": "garlic",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "고구마를 찜기에 넣고 25분간 부드럽게 찐다.",
+      "en": "Steam the sweet potatoes in a steamer for 25 minutes until soft.",
+      "ja": "さつまいもを蒸し器に入れ、25分間柔らかく蒸す。"
+     }
+    },
+    {
+     "stage": "oven",
+     "text": {
+      "ko": "고등어에 소금을 뿌려 에어프라이어에 180도로 12분간 바삭하게 굽는다.",
+      "en": "Season mackerel with salt and bake in an air fryer at 180°C (356°F) for 12 minutes until crispy.",
+      "ja": "鯖に塩をふり、エアフライヤーで180度で12分間、カリッとなるまで焼く。"
+     }
+    },
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "시금치를 데쳐 찬물에 헹군 뒤 다진 마늘, 참기름, 소금에 무친다.",
+      "en": "Blanch the spinach, rinse in cold water, then season with minced garlic, sesame oil, and salt.",
+      "ja": "ほうれん草を茹でて冷水にさらし、おろしニンニク、ごま油、塩で和える。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "찐 고구마, 구운 고등어, 시금치나물을 도시락에 담아 식힌다.",
+      "en": "Pack the steamed sweet potatoes, grilled mackerel, and seasoned spinach into a lunchbox and let cool.",
+      "ja": "蒸したさつまいも、焼いた鯖、ほうれん草のナムルをお弁当箱に詰め、冷ます。"
+     }
+    }
+   ],
+   "minutes": 35
+  },
+  {
+   "id": "braised-pollock-radish-bowl",
+   "name": {
+    "ko": "동태 무조림 덮밥 도시락",
+    "en": "Braised Pollock & Radish Bowl",
+    "ja": "スケトウダラの煮付け丼弁当"
+   },
+   "goals": [
+    "diet",
+    "easy"
+   ],
+   "protein": "fish",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 90
+    },
+    {
+     "id": "pollock",
+     "qty": 0.5
+    },
+    {
+     "id": "radish",
+     "qty": 0.1
+    },
+    {
+     "id": "soysauce",
+     "qty": 20
+    },
+    {
+     "id": "gochugaru",
+     "qty": 8
+    },
+    {
+     "id": "garlic",
+     "qty": 10
+    },
+    {
+     "id": "sugar",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀밥을 짓는다.",
+      "en": "Cook rice.",
+      "ja": "白米を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "무를 나박썰고 동태를 씻은 뒤, 간장·고춧가루·다진 마늘·설탕·물 반 컵을 섞어 양념을 만든다.",
+      "en": "Slice the radish, rinse the pollock, and mix soy sauce, chili flakes, minced garlic, sugar and half a cup of water.",
+      "ja": "大根を薄切りにしてスケトウダラを洗い、醤油・粉唐辛子・おろしにんにく・砂糖・水1/2カップを混ぜる。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "냄비에 무, 동태, 양념을 넣고 동태가 완전히 익고 무가 투명해질 때까지 15분간 졸인다.",
+      "en": "Place radish, pollock, and seasoning in a pot and braise for 15 minutes until the pollock is cooked through and the radish becomes translucent.",
+      "ja": "鍋に大根、スケトウダラ、タレを入れ、スケトウダラに火が通り、大根が半透明になるまで15分間煮る。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥을 담고 옆에 조린 동태와 무를 담아 식힌다.",
+      "en": "Pack rice into a container, arrange the braised pollock and radish on the side, and let cool.",
+      "ja": "容器にご飯を盛り、横にスケトウダラと大根の煮付けを添えて冷ます。"
+     }
+    }
+   ],
+   "minutes": 35
+  },
+  {
+   "id": "tuna-kimchi-fried-rice",
+   "name": {
+    "ko": "참치 김치 볶음밥",
+    "en": "Tuna Kimchi Fried Rice",
+    "ja": "ツナキムチチャーハン"
+   },
+   "goals": [
+    "budget",
+    "easy"
+   ],
+   "protein": "fish",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 90
+    },
+    {
+     "id": "tuna",
+     "qty": 0.5
+    },
+    {
+     "id": "kimchi",
+     "qty": 90
+    },
+    {
+     "id": "greenonion",
+     "qty": 20
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    },
+    {
+     "id": "sesameoil",
+     "qty": 5
+    },
+    {
+     "id": "sugar",
+     "qty": 3
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "고슬고슬하게 밥을 짓는다.",
+      "en": "Cook rice so it is firm/fluffy.",
+      "ja": "固めに炊いたご飯を用意する。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 파, 김치, 참치, 설탕을 센 불에서 볶는다.",
+      "en": "Heat oil in a pan, and stir-fry green onions, kimchi, tuna, and sugar over high heat.",
+      "ja": "フライパンに油をひき、ネギ、キムチ、ツナ、砂糖を強火で炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "밥을 넣고 양념이 골고루 배도록 볶은 뒤 참기름을 둘러 섞는다.",
+      "en": "Add rice, stir-fry until the seasoning is evenly distributed, then drizzle with sesame oil and mix.",
+      "ja": "ご飯を加えてタレが全体に行き渡るまで炒め、ごま油を回しかけて混ぜる。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "완성된 볶음밥을 도시락에 담아 한 김 식힌다.",
+      "en": "Pack the finished fried rice into a lunchbox and let cool slightly.",
+      "ja": "完成したチャーハンをお弁当箱に詰め、粗熱を取る。"
+     }
+    }
+   ],
+   "minutes": 35
+  },
+  {
+   "id": "spicy-squid-stirfry-bowl",
+   "name": {
+    "ko": "매콤 오징어 볶음밥 도시락",
+    "en": "Spicy Squid Stir-fry Bowl",
+    "ja": "ピリ辛イカ炒め弁当"
+   },
+   "goals": [
+    "muscle",
+    "diet"
+   ],
+   "protein": "seafood",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 80
+    },
+    {
+     "id": "squid",
+     "qty": 0.5
+    },
+    {
+     "id": "cabbage",
+     "qty": 0.1
+    },
+    {
+     "id": "carrot",
+     "qty": 30
+    },
+    {
+     "id": "gochujang",
+     "qty": 15
+    },
+    {
+     "id": "gochugaru",
+     "qty": 8
+    },
+    {
+     "id": "soysauce",
+     "qty": 10
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "밥을 짓는다.",
+      "en": "Cook rice.",
+      "ja": "ご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "오징어와 채소를 먹기 좋게 썰고 고추장 양념을 만든다.",
+      "en": "Cut squid and vegetables into bite-sized pieces and make a gochujang (red chili paste) seasoning sauce.",
+      "ja": "イカと野菜を食べやすい大きさに切り、コチュジャンベースのタレを作る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 양념과 채소를 볶다가 오징어를 센 불에 3분간 빠르게 볶아 수분을 날린다.",
+      "en": "Sauté the sauce and vegetables in a pan, then add the squid and stir-fry quickly over high heat for 3 minutes to remove excess moisture.",
+      "ja": "フライパンでタレと野菜を炒め、イカを加えて強火で3分間素早く炒め、水分を飛ばす。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 오징어볶음을 용기에 담아 식힌다.",
+      "en": "Pack rice and spicy squid stir-fry into a container and let cool.",
+      "ja": "ご飯とイカ炒めを容器に詰め、冷ます。"
+     }
+    }
+   ],
+   "minutes": 35
+  },
+  {
+   "id": "garlic-shrimp-fried-rice",
+   "name": {
+    "ko": "마늘 새우 볶음밥",
+    "en": "Garlic Shrimp Fried Rice",
+    "ja": "ガーリックシュリンプチャーハン"
+   },
+   "goals": [
+    "diet",
+    "easy"
+   ],
+   "protein": "seafood",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 85
+    },
+    {
+     "id": "shrimp",
+     "qty": 6
+    },
+    {
+     "id": "garlic",
+     "qty": 15
+    },
+    {
+     "id": "greenonion",
+     "qty": 15
+    },
+    {
+     "id": "bellpepper",
+     "qty": 30
+    },
+    {
+     "id": "oil",
+     "qty": 8
+    },
+    {
+     "id": "salt",
+     "qty": 2
+    },
+    {
+     "id": "pepper",
+     "qty": 1
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀밥을 고슬하게 짓는다.",
+      "en": "Cook rice to be firm.",
+      "ja": "白米を固めに炊く。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 마늘, 대파, 피망, 새우를 소금·후추로 간하며 새우가 붉게 변할 때까지 볶는다.",
+      "en": "Heat oil in a pan, sauté garlic, green onions, bell peppers, and shrimp seasoned with salt and pepper until the shrimp turns red.",
+      "ja": "フライパンに油をひき、ニンニク、長ネギ、ピーマン、エビを塩胡椒で味付けしながら、エビが赤くなるまで炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "밥을 넣고 재료들과 고루 섞어가며 3분간 고슬고슬하게 볶는다.",
+      "en": "Add rice, mix evenly with the ingredients, and stir-fry for 3 minutes until fluffy.",
+      "ja": "ご飯を入れ、具材とよく混ぜ合わせながら3分間パラパラになるまで炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "마늘 새우 볶음밥을 용기에 담아 한 김 식힌다.",
+      "en": "Pack the garlic shrimp fried rice into a container and let cool slightly.",
+      "ja": "ガーリックシュリンプチャーハンを容器に詰め、粗熱を取る。"
+     }
+    }
+   ],
+   "minutes": 35
+  },
+  {
+   "id": "squid-broccoli-oyster-bowl",
+   "name": {
+    "ko": "오징어 브로콜리 굴소스 도시락",
+    "en": "Squid & Broccoli Oyster Stir-fry Bowl",
+    "ja": "イカとブロッコリーのオイスター炒め弁当"
+   },
+   "goals": [
+    "diet",
+    "muscle"
+   ],
+   "protein": "seafood",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "brownrice",
+     "qty": 80
+    },
+    {
+     "id": "squid",
+     "qty": 0.5
+    },
+    {
+     "id": "broccoli",
+     "qty": 0.3
+    },
+    {
+     "id": "onion",
+     "qty": 40
+    },
+    {
+     "id": "oystersauce",
+     "qty": 15
+    },
+    {
+     "id": "garlic",
+     "qty": 10
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "현미밥을 짓는다.",
+      "en": "Cook brown rice.",
+      "ja": "玄米ご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "오징어를 썰고 브로콜리는 송이송이 떼어내 손질한다.",
+      "en": "Slice the squid and separate the broccoli into florets.",
+      "ja": "イカを切り、ブロッコリーは小房に分ける。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "달군 팬에 기름을 두르고 마늘, 양파, 오징어, 브로콜리, 굴소스를 넣고 3분간 볶는다.",
+      "en": "Heat oil in a hot pan, add garlic, onion, squid, broccoli, and oyster sauce, and stir-fry for 3 minutes.",
+      "ja": "熱したフライパンに油をひき、ニンニク、玉ねぎ、イカ、ブロッコリー、オイスターソースを入れて3分間炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "현미밥과 오징어 브로콜리 볶음을 용기에 담아 식힌다.",
+      "en": "Pack the brown rice and stir-fried squid and broccoli into a container and let cool.",
+      "ja": "玄米ご飯とイカとブロッコリーの炒め物を容器に詰め、冷ます。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "eggplant-mushroom-deopbap",
+   "name": {
+    "ko": "가지 새송이 굴소스 덮밥",
+    "en": "Eggplant & Mushroom Rice Bowl",
+    "ja": "ナスとエリンギのオイスターソース丼"
+   },
+   "goals": [
+    "diet",
+    "budget"
+   ],
+   "protein": "veg",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 90
+    },
+    {
+     "id": "eggplant",
+     "qty": 0.5
+    },
+    {
+     "id": "kingoyster",
+     "qty": 50
+    },
+    {
+     "id": "greenonion",
+     "qty": 20
+    },
+    {
+     "id": "oystersauce",
+     "qty": 15
+    },
+    {
+     "id": "soysauce",
+     "qty": 5
+    },
+    {
+     "id": "oil",
+     "qty": 7
+    },
+    {
+     "id": "sesameoil",
+     "qty": 3
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀밥을 짓는다.",
+      "en": "Cook white rice.",
+      "ja": "白米を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "가지와 새송이버섯을 도톰하게 깍둑썰기한다.",
+      "en": "Dice eggplant and king oyster mushrooms into thick chunks.",
+      "ja": "ナスとエリンギを厚めに角切りにする。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "대파 기름을 낸 팬에 가지와 버섯을 넣고 굴소스, 간장으로 3분간 노릇하게 볶는다.",
+      "en": "In a pan with green onion-infused oil, sauté eggplant and mushrooms with oyster sauce and soy sauce for 3 minutes until golden.",
+      "ja": "ネギ油を作ったフライパンにナスときのこを入れ、オイスターソースと醤油で3分間こんがりと炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥 위에 덮밥 형태로 얹어 용기에 담아 식힌다.",
+      "en": "Serve as a rice bowl topping, packing into a container and letting it cool.",
+      "ja": "ご飯の上にのせて丼風にし、容器に詰めて冷ます。"
+     }
+    }
+   ],
+   "minutes": 30
+  },
+  {
+   "id": "potato-carrot-barley-bowl",
+   "name": {
+    "ko": "감자 당근 조림 보리밥 도시락",
+    "en": "Braised Potato & Carrot Bowl",
+    "ja": "じゃがいもと人参の煮物と大麦ご飯"
+   },
+   "goals": [
+    "budget",
+    "easy"
+   ],
+   "protein": "veg",
+   "keepDays": 4,
+   "ing": [
+    {
+     "id": "barley",
+     "qty": 40
+    },
+    {
+     "id": "rice",
+     "qty": 50
+    },
+    {
+     "id": "potato",
+     "qty": 120
+    },
+    {
+     "id": "carrot",
+     "qty": 40
+    },
+    {
+     "id": "soysauce",
+     "qty": 18
+    },
+    {
+     "id": "sugar",
+     "qty": 8
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    },
+    {
+     "id": "sesame",
+     "qty": 3
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "보리와 백미를 섞어 밥을 안친다.",
+      "en": "Mix barley and white rice, then set to cook.",
+      "ja": "大麦と白米を混ぜてご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "감자와 당근의 껍질을 벗겨 한 입 크기로 썬다.",
+      "en": "Peel the potatoes and carrots and cut them into bite-sized pieces.",
+      "ja": "じゃがいもと人参の皮をむき、一口大に切る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 재료를 볶다가 간장, 설탕, 물을 넣고 10분간 뭉근하게 졸인다.",
+      "en": "Sauté ingredients in an oiled pan, then add soy sauce, sugar, and water, and simmer for 10 minutes until tender.",
+      "ja": "フライパンに油をひいて材料を炒め、醤油、砂糖、水を加えて10分間じっくり煮る。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "보리밥과 감자 조림을 담아 한 김 식힌다.",
+      "en": "Pack the barley rice and braised potatoes into a container and let cool slightly.",
+      "ja": "麦ご飯とじゃがいもの煮付けを詰め、粗熱を取る。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "mushroom-bibimbap-bowl",
+   "name": {
+    "ko": "버섯 콩나물 비빔밥 도시락",
+    "en": "Mushroom & Bean Sprout Bibimbap",
+    "ja": "きもう少し豆もやしのビビンバ弁当"
+   },
+   "goals": [
+    "diet",
+    "easy",
+    "budget"
+   ],
+   "protein": "veg",
+   "keepDays": 3,
+   "ing": [
+    {
+     "id": "brownrice",
+     "qty": 80
+    },
+    {
+     "id": "sprouts",
+     "qty": 80
+    },
+    {
+     "id": "oystermush",
+     "qty": 60
+    },
+    {
+     "id": "enoki",
+     "qty": 40
+    },
+    {
+     "id": "gochujang",
+     "qty": 15
+    },
+    {
+     "id": "sesameoil",
+     "qty": 6
+    },
+    {
+     "id": "salt",
+     "qty": 2
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "현미밥을 고슬하게 짓는다.",
+      "en": "Cook brown rice to be firm.",
+      "ja": "玄米ご飯を固めに炊く。"
+     }
+    },
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "콩나물과 버섯을 끓는 물에 2분 데쳐 물기를 짠다.",
+      "en": "Blanch bean sprouts and mushrooms in boiling water for 2 minutes and drain.",
+      "ja": "もやしとキノコを熱湯で2分間茹でて水気を絞る。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "데친 나물에 소금과 참기름을 넣어 조물조물 무친다.",
+      "en": "Season the blanched vegetables with salt and sesame oil, then mix well.",
+      "ja": "茹でたナムルに塩とごま油を加えて和える。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "현미밥 위에 나물을 둘러 담고 고추장을 곁들여 식힌다.",
+      "en": "Arrange the vegetables over the brown rice, serve with gochujang on the side, and let cool.",
+      "ja": "玄米ご飯の上にナムルを盛り付け、コチュジャンを添えて冷ます。"
+     }
+    }
+   ],
+   "minutes": 40
+  },
+  {
+   "id": "chicken-breast-oats-bowl",
+   "name": {
+    "ko": "닭가슴살 오트밀 채소볼",
+    "en": "Chicken Breast & Oatmeal Veggie Bowl",
+    "ja": "鶏むね肉とオートミールの野菜ボウル"
+   },
+   "goals": [
+    "muscle",
+    "diet"
+   ],
+   "protein": "chicken",
+   "keepDays": 3,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "oats",
+     "qty": 80
+    },
+    {
+     "id": "chickenbreast",
+     "qty": 150
+    },
+    {
+     "id": "broccoli",
+     "qty": 0.3
+    },
+    {
+     "id": "garlic",
+     "qty": 10
+    },
+    {
+     "id": "soysauce",
+     "qty": 15
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "닭가슴살과 브로콜리를 한입 크기로 썰고 마늘은 편으로 썬다.",
+      "en": "Chop the chicken breast and broccoli into bite-sized pieces, and slice the garlic.",
+      "ja": "鶏むね肉とブロッコリーを食べやすい大きさに切り、ニンニクはスライスする。"
+     }
+    },
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "오트밀에 물을 붓고 전자레인지에 3분간 가열하여 익힌다.",
+      "en": "Add water to the oatmeal and heat in the microwave for 3 minutes to cook.",
+      "ja": "オートミールに水を加え、電子レンジで3分加熱して調理する。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 식용유를 두르고 마늘·닭가슴살을 중불에서 7분, 속까지 하얗게 익힌 뒤 브로콜리를 넣어 2분 더 볶는다.",
+      "en": "Heat oil in a pan, stir-fry garlic and chicken over medium heat for 7 minutes until cooked through, then add broccoli and stir-fry for 2 more minutes.",
+      "ja": "フライパンにサラダ油を引き、ニンニクと鶏肉を中火で7分炒めて中まで火を通し、ブロッコリーを加えてさらに2分炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "볶은 재료에 간장을 넣고 1분간 더 볶아 간을 맞춘다.",
+      "en": "Add soy sauce to the pan and stir-fry for 1 more minute to season.",
+      "ja": "醤油を加えてさらに1分炒め、味を調える。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "식힌 오트밀 위에 볶은 재료를 올려 밀폐용기에 담는다.",
+      "en": "Place the stir-fried mixture over the cooled oatmeal and pack into an airtight container.",
+      "ja": "冷ましたオートミールの上に炒めた具材をのせ、密閉容器に入れる。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pork-shoulder-chili-stirfry",
+   "name": {
+    "ko": "돼지 앞다리살 풋고추 볶음밥",
+    "en": "Pork Shoulder & Chili Pepper Fried Rice",
+    "ja": "豚前足肉と青唐辛子のチャーハン"
+   },
+   "goals": [
+    "muscle",
+    "easy"
+   ],
+   "protein": "pork",
+   "keepDays": 3,
+   "minutes": 40,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 100
+    },
+    {
+     "id": "porkshoulder",
+     "qty": 150
+    },
+    {
+     "id": "greenchili",
+     "qty": 30
+    },
+    {
+     "id": "onion",
+     "qty": 50
+    },
+    {
+     "id": "soysauce",
+     "qty": 20
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 전기밥솥으로 밥을 짓는다.",
+      "en": "Wash the rice and cook it in an electric rice cooker.",
+      "ja": "米を研いで電気炊飯器で炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "돼지 앞다리살은 한입 크기로 썰고 풋고추와 양파는 잘게 다진다.",
+      "en": "Cut the pork shoulder into bite-sized pieces and finely mince the chili peppers and onion.",
+      "ja": "豚前足肉を食べやすい大きさに切り、青唐辛子と玉ねぎはみじん切りにする。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 고기를 먼저 넣고 중불에서 속까지 완전히 익을 때까지 볶는다.",
+      "en": "Put the pork in a pan first and stir-fry over medium heat until completely cooked through.",
+      "ja": "フライパンに肉を先に入れ、中火で完全に火が通るまで炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "양파, 풋고추, 간장을 넣고 강불에서 2분간 빠르게 볶아낸다.",
+      "en": "Add onion, chili peppers, and soy sauce, and stir-fry quickly over high heat for 2 minutes.",
+      "ja": "玉ねぎ、青唐辛子、醤油を加え、強火で2分素早く炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "도시락통에 밥을 담고 그 위에 볶은 고기를 얹어 식힌 뒤 담는다.",
+      "en": "Put rice in a lunchbox, top with the stir-fried pork, let it cool, and pack.",
+      "ja": "弁当箱にご飯を詰め、その上に炒めた肉をのせて冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tofu-scrambled-egg-rice",
+   "name": {
+    "ko": "두부 달걀 스크램블 덮밥",
+    "en": "Tofu Scrambled Egg Rice Bowl",
+    "ja": "豆腐と卵のスクランブル丼"
+   },
+   "goals": [
+    "muscle",
+    "easy"
+   ],
+   "protein": "tofu",
+   "keepDays": 2,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 100
+    },
+    {
+     "id": "tofu",
+     "qty": 150
+    },
+    {
+     "id": "egg",
+     "qty": 2
+    },
+    {
+     "id": "greenonion",
+     "qty": 20
+    },
+    {
+     "id": "oystermush",
+     "qty": 50
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook it.",
+      "ja": "米を研いで炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "두부는 물기를 제거하고 으깨고, 느타리버섯은 결대로 찢는다.",
+      "en": "Drain the tofu and mash it; tear the oyster mushrooms along the grain.",
+      "ja": "豆腐の水気を切り、潰す。ひらたけは手で細かく割く。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 대파와 버섯을 볶다가 으깬 두부를 넣어 3분간 볶는다.",
+      "en": "Heat oil in a pan, stir-fry green onions and mushrooms, then add the mashed tofu and stir-fry for 3 minutes.",
+      "ja": "フライパンに油を引き、長ネギとキノコを炒め、潰した豆腐を加えて3分炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "달걀을 풀어 팬에 붓고 약불에서 몽글몽글하게 익을 때까지 저어가며 볶는다.",
+      "en": "Beat the eggs, pour into the pan, and stir over low heat until fluffy and cooked.",
+      "ja": "卵を溶いてフライパンに流し入れ、弱火でかき混ぜながらふわっと火が通るまで炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥 위에 두부 달걀 스크램블을 덮어 식힌 후 담는다.",
+      "en": "Serve the tofu scrambled eggs over the rice, let cool, and pack.",
+      "ja": "ご飯の上に豆腐と卵のスクランブルをのせ、冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "mackerel-potato-grill",
+   "name": {
+    "ko": "고등어 구이 감자 도시락",
+    "en": "Grilled Mackerel & Potato Lunchbox",
+    "ja": "焼きサバとジャガイモのお弁当"
+   },
+   "goals": [
+    "muscle",
+    "diet"
+   ],
+   "protein": "fish",
+   "keepDays": 2,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "potato",
+     "qty": 200
+    },
+    {
+     "id": "mackerel",
+     "qty": 0.5
+    },
+    {
+     "id": "garlic",
+     "qty": 20
+    },
+    {
+     "id": "pepper",
+     "qty": 2
+    },
+    {
+     "id": "oil",
+     "qty": 10
+    }
+   ],
+   "steps": [
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "감자는 깍둑썰기하고 고등어는 가시를 발라낸다.",
+      "en": "Cube the potatoes and remove bones from the mackerel.",
+      "ja": "ジャガイモを角切りにし、サバは骨を取り除く。"
+     }
+    },
+    {
+     "stage": "oven",
+     "text": {
+      "ko": "에어프라이어 180도에서 감자와 고등어를 20분, 고등어 속까지 익게 굽는다.",
+      "en": "Air-fry the potatoes and mackerel at 180°C for 20 minutes until the fish is cooked through.",
+      "ja": "エアフライヤー180度でジャガイモとサバを20分、サバの中まで火が通るように焼く。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "프라이팬에 기름을 두르고 편마늘을 노릇하게 볶는다.",
+      "en": "Heat oil in a frying pan and sauté the sliced garlic until golden brown.",
+      "ja": "フライパンに油を引き、スライスしたニンニクをきつね色になるまで炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "구운 감자와 고등어를 팬에 넣고 후추를 뿌려 가볍게 섞는다.",
+      "en": "Add the grilled potatoes and mackerel to the pan, sprinkle with pepper, and toss lightly.",
+      "ja": "焼いたジャガイモとサバをフライパンに入れ、コショウを振って軽く混ぜる。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "도시락에 담아 충분히 식힌 후 뚜껑을 닫는다.",
+      "en": "Pack into the lunchbox, let cool completely, and close the lid.",
+      "ja": "弁当箱に詰め、十分に冷ましてから蓋をする。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "chicken-leg-curry",
+   "name": {
+    "ko": "닭고기 채소 카레 덮밥",
+    "en": "Chicken & Vegetable Curry Rice",
+    "ja": "鶏肉と野菜のカレー丼"
+   },
+   "goals": [
+    "muscle"
+   ],
+   "protein": "chicken",
+   "keepDays": 3,
+   "minutes": 40,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 100
+    },
+    {
+     "id": "chicken",
+     "qty": 150
+    },
+    {
+     "id": "carrot",
+     "qty": 50
+    },
+    {
+     "id": "onion",
+     "qty": 50
+    },
+    {
+     "id": "curry",
+     "qty": 30
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook it.",
+      "ja": "米を研いで炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "닭고기와 당근, 양파를 한입 크기로 썬다.",
+      "en": "Cut the chicken, carrots, and onions into bite-sized pieces.",
+      "ja": "鶏肉、ニンジン、玉ねぎを食べやすい大きさに切る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 닭고기를 먼저 볶다가 당근과 양파를 넣고 완전히 익을 때까지 볶는다.",
+      "en": "Stir-fry the chicken in a pan first, then add carrots and onions and cook until fully done.",
+      "ja": "フライパンでまず鶏肉を炒め、ニンジンと玉ねぎを加えて完全に火が通るまで炒める。"
+     }
+    },
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "물을 붓고 끓으면 카레가루를 풀어 걸쭉해질 때까지 5분간 저으며 끓인다.",
+      "en": "Pour in water, bring to a boil, add curry powder, and simmer for 5 minutes while stirring until thickened.",
+      "ja": "水を加えて沸騰したらカレー粉を溶かし、とろみがつくまで5分間かき混ぜながら煮る。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 카레를 별도 용기에 나누어 식힌 후 담는다.",
+      "en": "Divide the rice and curry into separate containers, let cool, and pack.",
+      "ja": "ご飯とカレーを別の容器に分け、冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pork-shoulder-spinach-mix",
+   "name": {
+    "ko": "돼지 앞다리살 시금치 덮밥",
+    "en": "Pork Shoulder & Spinach Rice Bowl",
+    "ja": "豚前足肉とほうれん草の丼"
+   },
+   "goals": [
+    "muscle"
+   ],
+   "protein": "pork",
+   "keepDays": 3,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 100
+    },
+    {
+     "id": "porkshoulder",
+     "qty": 150
+    },
+    {
+     "id": "spinach",
+     "qty": 100
+    },
+    {
+     "id": "soysauce",
+     "qty": 20
+    },
+    {
+     "id": "oil",
+     "qty": 10
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook it.",
+      "ja": "米を研いで炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "시금치는 씻어 다듬고 돼지 앞다리살은 먹기 좋게 썬다.",
+      "en": "Wash and trim the spinach; cut the pork shoulder into bite-sized pieces.",
+      "ja": "ほうれん草を洗って下処理し、豚前足肉を食べやすい大きさに切る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 돼지 앞다리살을 넣고 센 불에서 5분, 속까지 완전히 익을 때까지 볶는다.",
+      "en": "Add pork to a pan and stir-fry over high heat for 5 minutes until fully cooked.",
+      "ja": "フライパンに豚前足肉を入れ、強火で5分、中まで完全に火が通るまで炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "시금치와 간장을 넣고 시금치 숨이 죽을 때까지 빠르게 볶아낸다.",
+      "en": "Add spinach and soy sauce, and stir-fry quickly until the spinach wilts.",
+      "ja": "ほうれん草と醤油を加え、ほうれん草がしんなりするまで素早く炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "용기에 밥을 담고 그 위에 볶은 고기와 시금치를 올려 식힌 뒤 담는다.",
+      "en": "Put rice in a container, top with the stir-fried meat and spinach, let cool, and pack.",
+      "ja": "容器にご飯を詰め、その上に炒めた肉とほうれん草をのせて冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tuna-egg-omelet-rice",
+   "name": {
+    "ko": "참치 달걀 볶음밥",
+    "en": "Tuna & Egg Fried Rice",
+    "ja": "ツナと卵のチャーハン"
+   },
+   "goals": [
+    "muscle",
+    "easy"
+   ],
+   "protein": "egg",
+   "keepDays": 3,
+   "minutes": 30,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 100
+    },
+    {
+     "id": "tuna",
+     "qty": 1
+    },
+    {
+     "id": "egg",
+     "qty": 2
+    },
+    {
+     "id": "greenonion",
+     "qty": 20
+    },
+    {
+     "id": "oil",
+     "qty": 10
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 고슬고슬하게 밥을 짓는다.",
+      "en": "Wash the rice and cook it until fluffy.",
+      "ja": "米を研いでパラパラに炊き上げる。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "대파를 썰고 참치는 기름을 살짝 제거한다.",
+      "en": "Slice green onions and drain excess oil from the canned tuna.",
+      "ja": "長ネギを切り、ツナ缶は軽く油を切る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 대파를 볶아 향을 낸 뒤 참치를 넣고 볶는다.",
+      "en": "Heat oil in a pan, sauté green onions for aroma, then add tuna and stir-fry.",
+      "ja": "フライパンに油を引き、長ネギを炒めて香りを出し、ツナを加えて炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "밥을 넣고 볶다가 달걀 2개를 풀어 넣어 완전히 익을 때까지 섞으며 볶는다.",
+      "en": "Add rice and stir-fry, then crack in 2 eggs and cook while mixing until fully set.",
+      "ja": "ご飯を加えて炒め、卵2個を割り入れて完全に火が通るまで混ぜながら炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "잘 볶아진 밥을 넓게 펼쳐 식힌 후 도시락통에 담는다.",
+      "en": "Spread the stir-fried rice out to cool, then pack it into the lunchbox.",
+      "ja": "炒めたご飯を広げて冷まし、弁当箱に詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "steamed-egg-rice-bowl",
+   "name": {
+    "ko": "채소 달걀찜 덮밥",
+    "en": "Steamed Egg with Vegetables Rice Bowl",
+    "ja": "野菜の茶碗蒸し丼"
+   },
+   "goals": [
+    "muscle",
+    "diet"
+   ],
+   "protein": "egg",
+   "keepDays": 2,
+   "minutes": 30,
+   "ing": [
+    {
+     "id": "rice",
+     "qty": 100
+    },
+    {
+     "id": "egg",
+     "qty": 3
+    },
+    {
+     "id": "carrot",
+     "qty": 30
+    },
+    {
+     "id": "greenonion",
+     "qty": 10
+    },
+    {
+     "id": "salt",
+     "qty": 2
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook it.",
+      "ja": "米を研いで炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "당근은 잘게 다지고 대파는 송송 썬다.",
+      "en": "Finely mince the carrots and chop the green onions.",
+      "ja": "ニンジンはみじん切りにし、長ネギは小口切りにする。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "볼에 달걀, 다진 당근, 파, 소금을 넣고 잘 섞는다.",
+      "en": "In a bowl, combine eggs, minced carrots, green onions, and salt, and mix well.",
+      "ja": "ボウルに卵、みじん切りのニンジン、ネギ、塩を入れてよく混ぜる。"
+     }
+    },
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "내열 용기에 담아 전자레인지에 5분간 돌려 속까지 완전히 익힌다.",
+      "en": "Pour into a heat-resistant container and microwave for 5 minutes until cooked through.",
+      "ja": "耐熱容器に入れ、電子レンジで5分加熱して中まで完全に火を通す。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥 위에 달걀찜을 올려 식힌 후 담는다.",
+      "en": "Serve the steamed eggs over the rice, let cool, and pack.",
+      "ja": "ご飯の上に茶碗蒸しをのせ、冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "white-bean-chicken-stew",
+   "name": {
+    "ko": "흰콩 닭고기 조림 덮밥",
+    "en": "Braised Chicken & White Bean Rice Bowl",
+    "ja": "白インゲン豆と鶏肉の煮込み丼"
+   },
+   "goals": [
+    "muscle"
+   ],
+   "protein": "chicken",
+   "keepDays": 4,
+   "minutes": 70,
+   "ing": [
+    {
+     "id": "brownrice",
+     "qty": 100
+    },
+    {
+     "id": "beans",
+     "qty": 50
+    },
+    {
+     "id": "chicken",
+     "qty": 150
+    },
+    {
+     "id": "garlic",
+     "qty": 10
+    },
+    {
+     "id": "soysauce",
+     "qty": 20
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "현미는 충분히 불려 밥을 짓는다.",
+      "en": "Soak brown rice thoroughly and cook.",
+      "ja": "玄米を十分に浸水させてから炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "전날 밤 물에 불린 흰콩을 30분 삶고, 닭고기를 한입 크기로 썬다.",
+      "en": "Boil white beans (soaked overnight) for 30 minutes, and cut chicken into bite-sized pieces.",
+      "ja": "前日の夜に水に浸しておいた白インゲン豆を30分茹で、鶏肉を食べやすい大きさに切る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 닭고기를 볶다가 마늘과 삶은 콩을 넣고 볶는다.",
+      "en": "Stir-fry chicken in a pan, then add garlic and boiled beans.",
+      "ja": "フライパンで鶏肉を炒め、ニンニクと茹でた豆を加えて炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "간장과 물을 조금 넣고 뚜껑을 덮어 10분간 닭고기가 속까지 익도록 졸인다.",
+      "en": "Add soy sauce and a little water, cover, and simmer for 10 minutes until chicken is cooked through.",
+      "ja": "醤油と水を少し加え、蓋をして10分間、鶏肉に火が通るまで煮込む。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "현미밥 위에 조린 재료를 올려 식힌 후 담는다.",
+      "en": "Serve the braised ingredients over the brown rice, let cool, and pack.",
+      "ja": "玄米ご飯の上に煮込んだ具材をのせ、冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pork-shoulder-cabbage-stirfry",
+   "name": {
+    "ko": "돼지 앞다리살 양배추 굴소스 볶음",
+    "en": "Pork Shoulder & Cabbage Oyster Sauce Stir-fry",
+    "ja": "豚前足肉とキャベツのオイスターソース炒め"
+   },
+   "goals": [
+    "muscle"
+   ],
+   "protein": "pork",
+   "keepDays": 3,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "barley",
+     "qty": 100
+    },
+    {
+     "id": "porkshoulder",
+     "qty": 150
+    },
+    {
+     "id": "cabbage",
+     "qty": 0.15
+    },
+    {
+     "id": "oystersauce",
+     "qty": 20
+    },
+    {
+     "id": "oil",
+     "qty": 10
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "보리를 섞어 밥을 짓는다.",
+      "en": "Cook rice mixed with barley.",
+      "ja": "麦を混ぜてご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "양배추는 채 썰고 돼지 앞다리살은 한입 크기로 썬다.",
+      "en": "Slice cabbage and cut pork shoulder into bite-sized pieces.",
+      "ja": "キャベツは千切りにし、豚前足肉は食べやすい大きさに切る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 고기를 먼저 볶다가 양배추를 넣고 센 불에서 빠르게 볶는다.",
+      "en": "Sauté pork in a pan first, then add cabbage and stir-fry quickly over high heat.",
+      "ja": "フライパンでまず肉を炒め、キャベツを加えて強火で素早く炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "굴소스를 넣고 고기가 완전히 익을 때까지 3분간 더 볶는다.",
+      "en": "Add oyster sauce and stir-fry for 3 more minutes until the pork is cooked through.",
+      "ja": "オイスターソースを加え、肉に完全に火が通るまでさらに3分炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 볶음을 도시락통에 담아 식힌다.",
+      "en": "Pack the rice and stir-fry in a lunchbox and let cool.",
+      "ja": "ご飯と炒め物を弁当箱に詰め、冷ます。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "oatmeal-veggie-mix",
+   "name": {
+    "ko": "오트밀 채소 볶음밥",
+    "en": "Oatmeal Vegetable Fried Rice",
+    "ja": "オートミールの野菜チャーハン"
+   },
+   "goals": [
+    "diet",
+    "easy"
+   ],
+   "protein": "egg",
+   "keepDays": 3,
+   "minutes": 25,
+   "ing": [
+    {
+     "id": "oats",
+     "qty": 100
+    },
+    {
+     "id": "broccoli",
+     "qty": 0.3
+    },
+    {
+     "id": "carrot",
+     "qty": 30
+    },
+    {
+     "id": "egg",
+     "qty": 1
+    },
+    {
+     "id": "soysauce",
+     "qty": 10
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "브로콜리와 당근을 잘게 다진다.",
+      "en": "Finely mince broccoli and carrots.",
+      "ja": "ブロッコリーとニンジンをみじん切りにする。"
+     }
+    },
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "오트밀에 물 3큰술을 부어 전자레인지에 1분 돌린다.",
+      "en": "Pour 3 tbsp of water over oatmeal and microwave for 1 minute.",
+      "ja": "オートミールに水大さじ3をかけ、電子レンジで1分加熱する。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 당근과 브로콜리를 볶는다.",
+      "en": "Heat oil in a pan and sauté carrots and broccoli.",
+      "ja": "フライパンに油を引き、ニンジンとブロッコリーを炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "불린 오트밀과 달걀을 넣고 약불에서 달걀이 완전히 익을 때까지 볶는다.",
+      "en": "Add the soaked oatmeal and eggs, and stir-fry over low heat until the eggs are cooked.",
+      "ja": "戻したオートミールと卵を入れ、弱火で卵に完全に火が通るまで炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "간장을 둘러 가볍게 섞어 간을 한다.",
+      "en": "Add soy sauce and mix lightly to season.",
+      "ja": "醤油を回し入れ、軽く混ぜて味を調える。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "충분히 식힌 후 용기에 담는다.",
+      "en": "Let cool completely and pack into a container.",
+      "ja": "十分に冷ましてから容器に入れる。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "potato-egg-salad-box",
+   "name": {
+    "ko": "감자 달걀 샐러드 도시락",
+    "en": "Potato & Egg Salad Lunchbox",
+    "ja": "ジャガイモと卵のサラダ弁当"
+   },
+   "goals": [
+    "diet",
+    "easy"
+   ],
+   "protein": "egg",
+   "keepDays": 2,
+   "minutes": 30,
+   "ing": [
+    {
+     "id": "potato",
+     "qty": 200
+    },
+    {
+     "id": "egg",
+     "qty": 2
+    },
+    {
+     "id": "cucumber",
+     "qty": 0.5
+    },
+    {
+     "id": "onion",
+     "qty": 30
+    },
+    {
+     "id": "salt",
+     "qty": 2
+    }
+   ],
+   "steps": [
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "감자는 20분, 달걀은 9분 완숙으로 삶아 껍질을 벗긴다.",
+      "en": "Boil potatoes for 20 minutes and eggs for 9 minutes (hard-boiled), then peel.",
+      "ja": "ジャガイモは20分、卵は9分茹でて完熟にし、殻をむく。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "삶은 감자와 달걀을 볼에 담아 으깨고, 오이와 양파는 잘게 다진다.",
+      "en": "Mash the boiled potatoes and eggs in a bowl, and finely mince the cucumber and onion.",
+      "ja": "茹でたジャガイモと卵をボウルに入れて潰し、きゅうりと玉ねぎはみじん切りにする。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "으깬 재료와 다진 채소를 섞고 소금으로 간을 한다.",
+      "en": "Mix the mashed ingredients with the minced vegetables and season with salt.",
+      "ja": "潰した具材と刻んだ野菜を混ぜ合わせ、塩で味を調える。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밀폐용기에 담아 냉장 보관한다.",
+      "en": "Pack into an airtight container and store in the refrigerator.",
+      "ja": "密閉容器に入れ、冷蔵庫で保管する。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tofu-steak-veggie",
+   "name": {
+    "ko": "두부 스테이크 채소 구이",
+    "en": "Tofu Steak & Grilled Vegetables",
+    "ja": "豆腐ステーキと焼き野菜"
+   },
+   "goals": [
+    "diet"
+   ],
+   "protein": "tofu",
+   "keepDays": 3,
+   "minutes": 30,
+   "ing": [
+    {
+     "id": "sweetpotato",
+     "qty": 150
+    },
+    {
+     "id": "tofu",
+     "qty": 200
+    },
+    {
+     "id": "paprika",
+     "qty": 0.5
+    },
+    {
+     "id": "oystersauce",
+     "qty": 15
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "두부는 물기를 제거하고 두툼하게 썰고, 파프리카는 깍둑썰기한다.",
+      "en": "Drain and thickly slice tofu; cube the bell peppers.",
+      "ja": "豆腐の水気を切り、厚切りにする。パプリカは角切りにする。"
+     }
+    },
+    {
+     "stage": "oven",
+     "text": {
+      "ko": "고구마는 전자레인지에 8분간 돌려 익힌다.",
+      "en": "Microwave the sweet potato for 8 minutes to cook.",
+      "ja": "さつまいもは電子レンジで8分加熱して火を通す。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 두부를 노릇하게 굽고 파프리카를 함께 볶는다.",
+      "en": "Heat oil in a pan, sear tofu until golden brown, and sauté bell peppers together.",
+      "ja": "フライパンに油を引き、豆腐をきつね色に焼き、パプリカを一緒に炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "굴소스를 발라 1분간 더 구워 간을 입힌다.",
+      "en": "Brush with oyster sauce and cook for 1 more minute to flavor.",
+      "ja": "オイスターソースを塗り、さらに1分焼いて味をなじませる。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "익은 고구마와 두부 스테이크를 함께 담아 식힌다.",
+      "en": "Serve the cooked sweet potato and tofu steak together and let cool.",
+      "ja": "焼いたさつまいもと豆腐ステーキを一緒に盛り付け、冷ます。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sweetpotato-egg-box",
+   "name": {
+    "ko": "고구마 달걀 도시락",
+    "en": "Sweet Potato & Egg Lunchbox",
+    "ja": "さつまいもと卵のお弁当"
+   },
+   "goals": [
+    "diet"
+   ],
+   "protein": "egg",
+   "keepDays": 2,
+   "minutes": 30,
+   "ing": [
+    {
+     "id": "sweetpotato",
+     "qty": 200
+    },
+    {
+     "id": "egg",
+     "qty": 2
+    },
+    {
+     "id": "lettuce",
+     "qty": 50
+    },
+    {
+     "id": "cucumber",
+     "qty": 0.5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "고구마는 25분 찌고, 달걀은 9분 완숙으로 삶는다.",
+      "en": "Steam sweet potatoes for 25 minutes and hard-boil eggs for 9 minutes.",
+      "ja": "さつまいもは25分蒸し、卵は9分茹でて完熟にする。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "상추는 씻어 물기를 제거하고 오이는 먹기 좋게 슬라이스한다.",
+      "en": "Wash and drain lettuce; slice cucumbers into bite-sized pieces.",
+      "ja": "レタスは洗って水気を切り、きゅうりは食べやすい大きさにスライスする。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "삶은 달걀은 반으로 자른다.",
+      "en": "Cut the hard-boiled eggs in half.",
+      "ja": "茹で卵を半分に切る。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "도시락통에 상추를 깔고 고구마, 달걀, 오이를 차례로 담는다.",
+      "en": "Line a lunchbox with lettuce and layer the sweet potato, eggs, and cucumber.",
+      "ja": "弁当箱にレタスを敷き、さつまいも、卵、きゅうりの順に詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "eggplant-mackerel-bowl",
+   "name": {
+    "ko": "가지 고등어 덮밥",
+    "en": "Eggplant & Mackerel Rice Bowl",
+    "ja": "ナスとサバの丼"
+   },
+   "goals": [
+    "diet"
+   ],
+   "protein": "fish",
+   "keepDays": 2,
+   "minutes": 45,
+   "ing": [
+    {
+     "id": "brownrice",
+     "qty": 100
+    },
+    {
+     "id": "mackerel",
+     "qty": 0.5
+    },
+    {
+     "id": "eggplant",
+     "qty": 0.5
+    },
+    {
+     "id": "onion",
+     "qty": 30
+    },
+    {
+     "id": "soysauce",
+     "qty": 15
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "현미는 충분히 불려 밥을 짓는다.",
+      "en": "Soak brown rice thoroughly and cook.",
+      "ja": "玄米を十分に浸水させてから炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "가지·양파를 썰고, 고등어는 에어프라이어 180도에서 12분 속까지 구워 살만 발라낸다.",
+      "en": "Slice eggplant and onion; air-fry mackerel at 180°C for 12 minutes until cooked, then flake the meat.",
+      "ja": "ナスと玉ねぎを切り、サバはエアフライヤー180度で12分焼いて中まで火を通し、身をほぐす。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 기름을 두르고 가지와 양파를 볶다가 고등어 살을 넣는다.",
+      "en": "Heat oil in a pan, sauté eggplant and onion, then add the mackerel meat.",
+      "ja": "フライパンに油を引き、ナスと玉ねぎを炒め、サバの身を加える。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "간장을 넣고 가지가 익을 때까지 3분간 볶는다.",
+      "en": "Add soy sauce and stir-fry for 3 minutes until the eggplant is cooked.",
+      "ja": "醤油を加え、ナスに火が通るまで3分間炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "현미밥 위에 볶은 재료를 얹어 식힌 후 담는다.",
+      "en": "Serve the stir-fried mixture over the brown rice, let cool, and pack.",
+      "ja": "玄米ご飯の上に炒めた具材をのせ、冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tuna-cucumber-rice-bowl",
+   "name": {
+    "ko": "참치 오이 비빔밥",
+    "en": "Tuna & Cucumber Bibimbap",
+    "ja": "ツナときゅうりのビビンバ"
+   },
+   "goals": [
+    "easy"
+   ],
+   "protein": "fish",
+   "keepDays": 3,
+   "minutes": 30,
+   "ing": [
+    {
+     "id": "barley",
+     "qty": 100
+    },
+    {
+     "id": "tuna",
+     "qty": 1
+    },
+    {
+     "id": "cucumber",
+     "qty": 0.5
+    },
+    {
+     "id": "perilla",
+     "qty": 10
+    },
+    {
+     "id": "soysauce",
+     "qty": 10
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "보리를 섞어 밥을 짓는다.",
+      "en": "Cook rice mixed with barley.",
+      "ja": "麦を混ぜてご飯を炊く。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "오이는 얇게 채 썰고 깻잎은 가늘게 채 썬다.",
+      "en": "Thinly julienne the cucumber and perilla leaves.",
+      "ja": "きゅうりとえごまの葉を薄く千切りにする。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "참치캔은 기름을 적당히 제거한다.",
+      "en": "Remove excess oil from the canned tuna.",
+      "ja": "ツナ缶は軽く油を切る。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "용기에 밥을 담고 오이, 깻잎, 참치를 올린 뒤 간장을 따로 담아 준비한다.",
+      "en": "Put rice in a container, top with cucumber, perilla leaves, and tuna, and pack soy sauce separately.",
+      "ja": "容器にご飯を詰め、きゅうり、えごまの葉、ツナをのせ、醤油は別に添える。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "import-belly-perilla-rice",
+   "name": {
+    "ko": "삼겹살 깻잎 간장구이 잡곡밥",
+    "en": "Pork Belly & Perilla Leaf Soy-Glazed Multigrain Rice",
+    "ja": "豚バラ肉とエゴマの葉の醤油焼き雑穀米"
+   },
+   "goals": [
+    "muscle",
+    "budget"
+   ],
+   "protein": "pork",
+   "keepDays": 3,
+   "minutes": 45,
+   "ing": [
+    {
+     "id": "importbelly",
+     "qty": 150
+    },
+    {
+     "id": "mixgrain",
+     "qty": 100
+    },
+    {
+     "id": "perilla",
+     "qty": 20
+    },
+    {
+     "id": "soysauce",
+     "qty": 10
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "혼합잡곡을 씻어 40분간 밥을 짓는다.",
+      "en": "Wash the mixed grains and cook for 40 minutes.",
+      "ja": "雑穀を洗い、40分間炊飯する。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "식용유 두른 팬에 삼겹살을 중불에서 8분, 속까지 완전히 굽는다.",
+      "en": "Pan-fry pork belly in an oiled pan over medium heat for 8 minutes until cooked through.",
+      "ja": "油をひいたフライパンで豚バラ肉を中火で8分、中までしっかり焼く。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "간장을 넣어 간하고 썬 깻잎을 넣어 30초 볶는다.",
+      "en": "Season with soy sauce, add sliced perilla leaves, and stir-fry for 30 seconds.",
+      "ja": "醤油で味を調え、刻んだエゴマの葉を加えて30秒炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "잡곡밥 위에 고기를 얹고 식혀서 담는다.",
+      "en": "Place the meat on the multigrain rice, let it cool, and pack.",
+      "ja": "雑穀米の上に肉をのせ、冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "spanish-minari-steam",
+   "name": {
+    "ko": "삼치 미나리 찜 도시락",
+    "en": "Spanish Mackerel & Water Dropwort Steamed Lunch Box",
+    "ja": "サワラとセリの蒸し物弁当"
+   },
+   "goals": [
+    "diet",
+    "easy"
+   ],
+   "protein": "fish",
+   "keepDays": 2,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "spanish",
+     "qty": 0.25
+    },
+    {
+     "id": "minari",
+     "qty": 50
+    },
+    {
+     "id": "radish",
+     "qty": 0.1
+    },
+    {
+     "id": "rice",
+     "qty": 80
+    },
+    {
+     "id": "soysauce",
+     "qty": 10
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 30분간 밥을 짓는다.",
+      "en": "Wash the rice and cook for 30 minutes.",
+      "ja": "米を洗い、30分間炊飯する。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "무를 얇게 썰어 냄비 바닥에 깔고 삼치를 올린다.",
+      "en": "Thinly slice radish, place it on the bottom of a pot, and place the mackerel on top.",
+      "ja": "大根を薄切りにして鍋底に敷き、その上にサワラをのせる。"
+     }
+    },
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "물 반 컵과 간장을 붓고 뚜껑을 덮어 중불에서 12분, 삼치 속까지 익힌다.",
+      "en": "Pour in 1/2 cup of water and soy sauce, cover, and cook over medium heat for 12 minutes until the mackerel is cooked through.",
+      "ja": "水半カップと醤油を注ぎ、蓋をして中火で12分、サワラの中まで火を通す。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "미나리를 올리고 2분간 더 익힌다.",
+      "en": "Add the water dropwort and cook for 2 more minutes.",
+      "ja": "セリをのせてさらに2分加熱する。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 함께 담아 식힌다.",
+      "en": "Pack with rice and let cool.",
+      "ja": "ご飯と一緒に詰め、冷ます。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "clam-eolgari-rice",
+   "name": {
+    "ko": "바지락 얼갈이 된장 덮밥",
+    "en": "Manila Clam & Summer Cabbage Soybean Paste Rice Bowl",
+    "ja": "あさりとオルガリ（若い白菜）の味噌丼"
+   },
+   "goals": [
+    "budget",
+    "easy"
+   ],
+   "protein": "seafood",
+   "keepDays": 2,
+   "minutes": 30,
+   "ing": [
+    {
+     "id": "clam",
+     "qty": 100
+    },
+    {
+     "id": "eolgari",
+     "qty": 100
+    },
+    {
+     "id": "doenjang",
+     "qty": 20
+    },
+    {
+     "id": "rice",
+     "qty": 80
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "바지락을 끓는 물에 넣고 입이 벌어질 때까지 3분 삶은 뒤 안 벌어진 것은 버린다.",
+      "en": "Boil clams in water for 3 minutes until opened, then discard any that didn't open.",
+      "ja": "あさりを沸騰した湯に入れ、口が開くまで3分茹で、開かなかったものは捨てる。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "된장을 물 3큰술에 풀어 양념을 만든다.",
+      "en": "Mix soybean paste with 3 tablespoons of water to make the sauce.",
+      "ja": "味噌を水大さじ3で溶いてタレを作る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "식용유 두른 팬에 얼갈이와 양념을 넣고 3분 볶다가 바지락 살을 넣는다.",
+      "en": "Stir-fry summer cabbage and sauce in an oiled pan for 3 minutes, then add the clam meat.",
+      "ja": "油をひいたフライパンでオルガリとタレを入れ3分炒め、あさりの身を加える。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥 위에 얹어 식혀서 담는다.",
+      "en": "Place on top of the rice, let cool, and pack.",
+      "ja": "ご飯の上にのせ、冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "octopus-kkwari-stirfry",
+   "name": {
+    "ko": "낙지 꽈리고추 볶음 도시락",
+    "en": "Octopus & Shishito Pepper Stir-fry Lunch Box",
+    "ja": "タコとシシトウの炒め物弁当"
+   },
+   "goals": [
+    "muscle"
+   ],
+   "protein": "seafood",
+   "keepDays": 2,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "octopus",
+     "qty": 120
+    },
+    {
+     "id": "kkwari",
+     "qty": 50
+    },
+    {
+     "id": "onion",
+     "qty": 50
+    },
+    {
+     "id": "gochujang",
+     "qty": 15
+    },
+    {
+     "id": "oil",
+     "qty": 10
+    },
+    {
+     "id": "rice",
+     "qty": 90
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "낙지를 끓는 물에 1분 데쳐 먹기 좋게 썬다.",
+      "en": "Blanch the octopus in boiling water for 1 minute and cut into bite-sized pieces.",
+      "ja": "タコを沸騰した湯で1分茹で、食べやすい大きさに切る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "식용유를 두른 팬에 양파와 꽈리고추를 중불에서 3분간 볶는다.",
+      "en": "Stir-fry onion and shishito peppers in an oiled pan over medium heat for 3 minutes.",
+      "ja": "油をひいたフライパンで玉ねぎとシシトウを中火で3分炒める。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "낙지와 고추장을 넣고 센 불에서 2분간 빠르게 볶아낸다.",
+      "en": "Add octopus and gochujang, and stir-fry quickly over high heat for 2 minutes.",
+      "ja": "タコとコチュジャンを入れ、強火で2分手早く炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 함께 담아 식혀서 뚜껑을 덮는다.",
+      "en": "Pack with rice, let cool, and cover.",
+      "ja": "ご飯と一緒に詰め、冷ましてから蓋をする。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "scallop-chives-salad",
+   "name": {
+    "ko": "가리비 부추무침 도시락",
+    "en": "Scallop & Chive Salad Lunch Box",
+    "ja": "ホタテとニラの和え物弁当"
+   },
+   "goals": [
+    "diet"
+   ],
+   "protein": "seafood",
+   "keepDays": 2,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "scallop",
+     "qty": 100
+    },
+    {
+     "id": "chives",
+     "qty": 50
+    },
+    {
+     "id": "radish",
+     "qty": 0.1
+    },
+    {
+     "id": "gochugaru",
+     "qty": 5
+    },
+    {
+     "id": "rice",
+     "qty": 80
+    },
+    {
+     "id": "salt",
+     "qty": 1
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "가리비를 끓는 물에 5분, 입이 벌어지고 살이 하얗게 익을 때까지 삶아 살만 발라낸다.",
+      "en": "Boil scallops for 5 minutes until opened and white, then extract the meat.",
+      "ja": "ホタテを沸騰した湯で5分、口が開いて身が白くなるまで茹で、身を取り出す。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "무는 채 썰고 부추는 5cm 길이로 자른다.",
+      "en": "Julienne the radish and cut the chives into 5cm lengths.",
+      "ja": "大根は千切り、ニラは5cmの長さに切る。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "가리비·무·부추에 고춧가루와 소금을 넣어 버무린다.",
+      "en": "Toss scallops, radish, and chives with chili flakes and salt.",
+      "ja": "ホタテ、大根、ニラを粉唐辛子と塩で和える。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 무침을 칸을 나눠 담아 식힌다.",
+      "en": "Pack the rice and salad in separate compartments and let cool.",
+      "ja": "ご飯と和え物を仕切りに入れて詰め、冷ます。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "japanese-mackfillet-glaze",
+   "name": {
+    "ko": "고등어 필렛 생강 간장구이",
+    "en": "Mackerel Fillet Ginger Soy Glaze",
+    "ja": "鯖フィレの生姜醤油焼き"
+   },
+   "goals": [
+    "muscle"
+   ],
+   "protein": "fish",
+   "keepDays": 3,
+   "minutes": 30,
+   "ing": [
+    {
+     "id": "mackfillet",
+     "qty": 120
+    },
+    {
+     "id": "ginger",
+     "qty": 10
+    },
+    {
+     "id": "soysauce",
+     "qty": 15
+    },
+    {
+     "id": "sugar",
+     "qty": 5
+    },
+    {
+     "id": "rice",
+     "qty": 80
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "간장·설탕·다진 생강을 섞어 소스를 만든다.",
+      "en": "Mix soy sauce, sugar, and minced ginger to make the sauce.",
+      "ja": "醤油、砂糖、すりおろし生姜を混ぜてタレを作る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "식용유 두른 팬에 고등어를 껍질부터 중불에서 4분씩 앞뒤로 속까지 굽는다.",
+      "en": "Pan-fry mackerel in an oiled pan, skin-side down, over medium heat for 4 minutes on each side until cooked through.",
+      "ja": "油をひいたフライパンで鯖を皮目から中火で片面4分ずつ、中まで焼く。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "소스를 붓고 1분 졸여 입힌다.",
+      "en": "Pour in the sauce and glaze for 1 minute.",
+      "ja": "タレをかけて1分煮絡める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 함께 담아 식힌다.",
+      "en": "Pack with rice and let cool.",
+      "ja": "ご飯と一緒に詰め、冷ます。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "babyoyster-eggplant-gratin",
+   "name": {
+    "ko": "애느타리 가지 달걀 오믈렛 도시락",
+    "en": "Oyster Mushroom, Eggplant & Egg Omelet Lunch Box",
+    "ja": "ヒラタケとナスの卵オムレツ弁当"
+   },
+   "goals": [
+    "diet"
+   ],
+   "protein": "egg",
+   "keepDays": 2,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "babyoyster",
+     "qty": 100
+    },
+    {
+     "id": "eggplant",
+     "qty": 0.5
+    },
+    {
+     "id": "zucchini2",
+     "qty": 0.3
+    },
+    {
+     "id": "egg",
+     "qty": 2
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    },
+    {
+     "id": "rice",
+     "qty": 80
+    },
+    {
+     "id": "salt",
+     "qty": 1
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "가지와 쥬키니를 얇게 썰고 달걀에 소금을 넣어 푼다.",
+      "en": "Thinly slice eggplant and zucchini, and beat eggs with salt.",
+      "ja": "ナスとズッキーニを薄切りにし、卵に塩を入れて溶く。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "식용유 두른 팬에 채소와 애느타리를 중불에서 3분 볶는다.",
+      "en": "Stir-fry vegetables and oyster mushrooms in an oiled pan over medium heat for 3 minutes.",
+      "ja": "油をひいたフライパンで野菜とヒラタケを中火で3分炒める。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "달걀물을 붓고 뚜껑을 덮어 약불에서 5분, 속까지 완전히 익힌다.",
+      "en": "Pour in the beaten eggs, cover, and cook over low heat for 5 minutes until cooked through.",
+      "ja": "卵液を流し入れ、蓋をして弱火で5分、中までしっかり火を通す。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "식혀서 잘라 밥과 함께 담는다.",
+      "en": "Let cool, slice, and pack with rice.",
+      "ja": "冷ましてから切り分け、ご飯と一緒に詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cockle-lettuce-rice-bowl",
+   "name": {
+    "ko": "꼬막 상추 비빔밥 도시락",
+    "en": "Cockle & Lettuce Bibimbap Lunch Box",
+    "ja": "ハイガイとレタスのビビンバ弁当"
+   },
+   "goals": [
+    "diet",
+    "easy"
+   ],
+   "protein": "seafood",
+   "keepDays": 2,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "cockle",
+     "qty": 100
+    },
+    {
+     "id": "lettuce",
+     "qty": 50
+    },
+    {
+     "id": "carrot",
+     "qty": 30
+    },
+    {
+     "id": "rice",
+     "qty": 80
+    },
+    {
+     "id": "soysauce",
+     "qty": 10
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 30분간 밥을 짓는다.",
+      "en": "Wash the rice and cook for 30 minutes.",
+      "ja": "米を洗い、30分間炊飯する。"
+     }
+    },
+    {
+     "stage": "boil",
+     "text": {
+      "ko": "꼬막을 끓는 물에 넣고 입이 벌어질 때까지 3분 삶아 살만 발라낸다.",
+      "en": "Boil cockles for 3 minutes until opened, then extract the meat.",
+      "ja": "ハイガイを沸騰した湯に入れ、口が開くまで3分茹で、身を取り出す。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "당근을 채 썰고 상추를 썬 뒤 간장에 물 1큰술을 섞어 양념장을 만든다.",
+      "en": "Julienne the carrot, slice the lettuce, and mix soy sauce with 1 tablespoon of water to make the sauce.",
+      "ja": "人参は千切り、レタスは切り、醤油に水大さじ1を混ぜてタレを作る。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥 위에 재료를 얹고 양념장을 별도 용기에 담아 포장한다.",
+      "en": "Place ingredients on the rice and pack the sauce in a separate container.",
+      "ja": "ご飯の上に具材をのせ、タレは別容器に入れて梱包する。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "mussel-bellpepper-stirfry",
+   "name": {
+    "ko": "홍합 피망 굴소스 볶음",
+    "en": "Mussel & Bell Pepper Oyster Sauce Stir-fry",
+    "ja": "ムール貝とピーマンのオイスターソース炒め"
+   },
+   "goals": [
+    "muscle"
+   ],
+   "protein": "seafood",
+   "keepDays": 2,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "mussel",
+     "qty": 120
+    },
+    {
+     "id": "bellpepper",
+     "qty": 50
+    },
+    {
+     "id": "onion",
+     "qty": 50
+    },
+    {
+     "id": "oystersauce",
+     "qty": 15
+    },
+    {
+     "id": "oil",
+     "qty": 10
+    },
+    {
+     "id": "rice",
+     "qty": 90
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "홍합은 깨끗이 씻고 피망과 양파는 깍둑썰기한다.",
+      "en": "Wash the mussels well, and dice the bell pepper and onion.",
+      "ja": "ムール貝をきれいに洗い、ピーマンと玉ねぎを角切りにする。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "팬에 식용유를 두르고 양파를 볶다가 홍합과 피망을 넣는다.",
+      "en": "Heat oil in a pan, stir-fry onion, then add mussels and bell peppers.",
+      "ja": "フライパンに油をひいて玉ねぎを炒め、ムール貝とピーマンを加える。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "굴소스를 넣고 센 불에서 4분, 홍합이 완전히 익을 때까지 볶는다.",
+      "en": "Add oyster sauce and stir-fry over high heat for 4 minutes until the mussels are cooked through.",
+      "ja": "オイスターソースを入れ、強火で4分、ムール貝に完全に火が通るまで炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 함께 담아 식힌다.",
+      "en": "Pack with rice and let cool.",
+      "ja": "ご飯と一緒に詰め、冷ます。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "import-belly-paprika-roll",
+   "name": {
+    "ko": "삼겹살 파프리카 굴소스 롤",
+    "en": "Pork Belly & Paprika Oyster Sauce Roll",
+    "ja": "豚バラ肉とパプリカのオイスターソースロール"
+   },
+   "goals": [
+    "budget"
+   ],
+   "protein": "pork",
+   "keepDays": 3,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "importbelly",
+     "qty": 150
+    },
+    {
+     "id": "paprika",
+     "qty": 0.5
+    },
+    {
+     "id": "oystersauce",
+     "qty": 10
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    },
+    {
+     "id": "rice",
+     "qty": 80
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "파프리카를 길게 썰어 삼겹살로 돌돌 만다.",
+      "en": "Cut paprika into strips and roll them inside the pork belly.",
+      "ja": "パプリカを細長く切り、豚バラ肉で巻く。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "식용유 두른 팬에 말아 놓은 고기를 굴려 가며 중불에서 8분, 속까지 완전히 익힌다.",
+      "en": "Pan-fry the rolls in an oiled pan, turning occasionally, over medium heat for 8 minutes until cooked through.",
+      "ja": "油をひいたフライパンで巻き終わりを下にして並べ、転がしながら中火で8分、中までしっかり焼く。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "굴소스를 넣어 1분 더 굴려 간을 입힌다.",
+      "en": "Add oyster sauce and roll for 1 more minute to glaze.",
+      "ja": "オイスターソースを加え、1分転がして味を絡める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 함께 담아 식힌다.",
+      "en": "Pack with rice and let cool.",
+      "ja": "ご飯と一緒に詰め、冷ます。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pollock-cherrytomato-sour",
+   "name": {
+    "ko": "동태 방울토마토 달걀볶음 도시락",
+    "en": "Pollack, Cherry Tomato & Egg Stir-fry Lunch Box",
+    "ja": "スケトウダラとミニトマトの卵炒め弁当"
+   },
+   "goals": [
+    "diet"
+   ],
+   "protein": "fish",
+   "keepDays": 3,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "pollock",
+     "qty": 0.5
+    },
+    {
+     "id": "cherrytomato",
+     "qty": 100
+    },
+    {
+     "id": "egg",
+     "qty": 1
+    },
+    {
+     "id": "soysauce",
+     "qty": 10
+    },
+    {
+     "id": "oil",
+     "qty": 10
+    },
+    {
+     "id": "rice",
+     "qty": 90
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "동태를 씻어 뼈를 발라내고 한입 크기로 썬다.",
+      "en": "Wash the pollack, remove bones, and cut into bite-sized pieces.",
+      "ja": "スケトウダラを洗い、骨を取り除いて一口大に切る。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "식용유 두른 팬에 동태살을 중불에서 6분, 속까지 하얗게 굽는다.",
+      "en": "Pan-fry the pollack in an oiled pan over medium heat for 6 minutes until white and cooked through.",
+      "ja": "油をひいたフライパンでタラの身を中火で6分、中まで白く焼き上げる。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "방울토마토를 넣어 2분 볶고 달걀을 풀어 넣어 완전히 익을 때까지 볶은 뒤 간장으로 간한다.",
+      "en": "Add cherry tomatoes, stir-fry for 2 minutes, add beaten eggs, cook through, and season with soy sauce.",
+      "ja": "ミニトマトを入れて2分炒め、溶き卵を流し入れて火が通るまで炒め、醤油で味を調える。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥과 함께 담아 식힌다.",
+      "en": "Pack with rice and let cool.",
+      "ja": "ご飯と一緒に詰め、冷ます。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "apple-importbelly-salad",
+   "name": {
+    "ko": "사과 삼겹살 샐러드와 고구마",
+    "en": "Apple, Pork Belly Salad & Sweet Potato",
+    "ja": "リンゴと豚バラ肉のサラダとさつまいも"
+   },
+   "goals": [
+    "budget"
+   ],
+   "protein": "pork",
+   "keepDays": 2,
+   "minutes": 30,
+   "ing": [
+    {
+     "id": "apple",
+     "qty": 0.5
+    },
+    {
+     "id": "importbelly",
+     "qty": 100
+    },
+    {
+     "id": "carrot",
+     "qty": 30
+    },
+    {
+     "id": "lettuce",
+     "qty": 50
+    },
+    {
+     "id": "oil",
+     "qty": 5
+    },
+    {
+     "id": "sweetpotato",
+     "qty": 150
+    },
+    {
+     "id": "salt",
+     "qty": 1
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "고구마를 찜기에 25분 찐다.",
+      "en": "Steam the sweet potato for 25 minutes.",
+      "ja": "さつまいもを蒸し器で25分蒸す。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "식용유 두른 팬에 삼겹살을 중불에서 8분, 속까지 바삭하게 굽고 기름을 뺀다.",
+      "en": "Pan-fry pork belly in an oiled pan over medium heat for 8 minutes until crispy, then drain the oil.",
+      "ja": "油をひいたフライパンで豚バラ肉を中火で8分、カリッとするまで焼き、油を切る。"
+     }
+    },
+    {
+     "stage": "prep",
+     "text": {
+      "ko": "사과·당근은 얇게 썰고 상추는 한입 크기로 뜯는다.",
+      "en": "Thinly slice apple and carrot, and tear lettuce into bite-sized pieces.",
+      "ja": "リンゴと人参は薄切りにし、レタスは一口大にちぎる。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "채소와 고기에 소금을 약간 넣어 버무린다.",
+      "en": "Toss vegetables and meat with a pinch of salt.",
+      "ja": "野菜と肉を塩少々で和える。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "고구마와 샐러드를 칸을 나눠 담아 식힌다.",
+      "en": "Pack sweet potato and salad in separate compartments and let cool.",
+      "ja": "さつまいもとサラダを仕切りに入れて詰め、冷ます。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tofu-sprouts-peanut-noodle",
+   "name": {
+    "ko": "두부 콩나물 땅콩볶음 덮밥",
+    "en": "Tofu, Bean Sprout & Peanut Stir-fry Rice Bowl",
+    "ja": "豆腐と豆もやしとピーナッツの炒め丼"
+   },
+   "goals": [
+    "diet",
+    "easy"
+   ],
+   "protein": "tofu",
+   "keepDays": 3,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "tofu",
+     "qty": 150
+    },
+    {
+     "id": "sprouts",
+     "qty": 100
+    },
+    {
+     "id": "peanut",
+     "qty": 30
+    },
+    {
+     "id": "onion",
+     "qty": 30
+    },
+    {
+     "id": "soysauce",
+     "qty": 10
+    },
+    {
+     "id": "rice",
+     "qty": 90
+    },
+    {
+     "id": "oil",
+     "qty": 6
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "두부를 깍둑썰어 식용유 두른 팬에서 중불로 노릇하게 굽는다.",
+      "en": "Cube the tofu and pan-fry in an oiled pan over medium heat until golden brown.",
+      "ja": "豆腐をさいの目に切り、油をひいたフライパンで中火で焼き色がつくまで焼く。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "콩나물과 양파를 넣고 3분 볶은 뒤 간장으로 간한다.",
+      "en": "Add bean sprouts and onion, stir-fry for 3 minutes, and season with soy sauce.",
+      "ja": "豆もやしと玉ねぎを入れて3分炒め、醤油で味を調える。"
+     }
+    },
+    {
+     "stage": "mix",
+     "text": {
+      "ko": "다진 땅콩을 뿌려 섞는다.",
+      "en": "Sprinkle with crushed peanuts and mix.",
+      "ja": "砕いたピーナッツをふりかけて混ぜる。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "밥 위에 얹어 식혀서 담는다.",
+      "en": "Place on top of the rice, let cool, and pack.",
+      "ja": "ご飯の上にのせ、冷ましてから詰める。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "shrimp-cheongyang-rice",
+   "name": {
+    "ko": "새우 청양고추 볶음밥",
+    "en": "Shrimp & Cheongyang Chili Fried Rice",
+    "ja": "エビと青唐辛子のチャーハン"
+   },
+   "goals": [
+    "muscle"
+   ],
+   "protein": "seafood",
+   "keepDays": 3,
+   "minutes": 35,
+   "ing": [
+    {
+     "id": "shrimp",
+     "qty": 6
+    },
+    {
+     "id": "cheongyang",
+     "qty": 10
+    },
+    {
+     "id": "egg",
+     "qty": 1
+    },
+    {
+     "id": "rice",
+     "qty": 100
+    },
+    {
+     "id": "oil",
+     "qty": 10
+    }
+   ],
+   "steps": [
+    {
+     "stage": "grain",
+     "text": {
+      "ko": "쌀을 씻어 밥을 짓는다.",
+      "en": "Wash the rice and cook.",
+      "ja": "米を洗い、炊飯する。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "식용유에 새우와 다진 청양고추를 넣고 새우가 붉게 변할 때까지 볶는다.",
+      "en": "Stir-fry shrimp and minced hot chili in oil until the shrimp turns red.",
+      "ja": "油でエビと刻んだ青唐辛子を炒め、エビが赤くなるまで火を通す。"
+     }
+    },
+    {
+     "stage": "pan",
+     "text": {
+      "ko": "밥을 넣고 달걀을 풀어 넣어 달걀이 완전히 익을 때까지 센 불에서 3분 볶는다.",
+      "en": "Add rice and beaten eggs, and stir-fry over high heat for 3 minutes until eggs are fully cooked.",
+      "ja": "ご飯と溶き卵を入れ、強火で3分、卵に火が通るまで炒める。"
+     }
+    },
+    {
+     "stage": "pack",
+     "text": {
+      "ko": "넓게 펼쳐 식힌 뒤 담는다.",
+      "en": "Spread out to cool, then pack.",
+      "ja": "広げて冷ましてから詰める。"
+     }
+    }
+   ]
+  }
+ ]
+}

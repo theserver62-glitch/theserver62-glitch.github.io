@@ -1,0 +1,11 @@
+{
+  "name": "밀프렙 플래너",
+  "short_name": "밀프렙",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f5",
+  "theme_color": "#2f9e6e",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

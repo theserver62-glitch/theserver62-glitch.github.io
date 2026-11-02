@@ -1,0 +1,1353 @@
+{
+ "asOf": "2026-10-17",
+ "sources": {
+  "kamis_year": "KAMIS 소매가격 부류별 2026년 연평균 (상품, 2026-10-17 조회) https://www.kamis.or.kr/customer/price/agricultureRetail/catalogue.do",
+  "kamis_live": "KAMIS 축산물 소매가격(축산물품질평가원) 2026-10-16 전국 평균 https://www.kamis.or.kr/customer/price/livestockRetail/period.do",
+  "est": "추정값 — 공식 가격 아직 연결 안 함 (한국소비자원 참가격 API 연결 예정)"
+ },
+ "items": [
+  {
+   "id": "rice",
+   "name": {
+    "ko": "쌀",
+    "en": "Rice",
+    "ja": "米"
+   },
+   "unit": "g",
+   "price": 35036,
+   "per": 10000,
+   "buy": 10000,
+   "src": "kamis_year",
+   "note": "쌀 10kg",
+   "pantry": true,
+   "allergens": []
+  },
+  {
+   "id": "brownrice",
+   "name": {
+    "ko": "현미",
+    "en": "Brown rice",
+    "ja": "玄米"
+   },
+   "unit": "g",
+   "price": 5697,
+   "per": 1000,
+   "buy": 1000,
+   "src": "kamis_year",
+   "note": "현미 찰현미 1kg",
+   "allergens": []
+  },
+  {
+   "id": "barley",
+   "name": {
+    "ko": "보리쌀",
+    "en": "Barley",
+    "ja": "押し麦"
+   },
+   "unit": "g",
+   "price": 5202,
+   "per": 1000,
+   "buy": 1000,
+   "src": "kamis_year",
+   "note": "보리쌀 찰보리 1kg",
+   "allergens": []
+  },
+  {
+   "id": "sweetpotato",
+   "name": {
+    "ko": "고구마",
+    "en": "Sweet potato",
+    "ja": "さつまいも"
+   },
+   "unit": "g",
+   "price": 5157,
+   "per": 1000,
+   "buy": 1000,
+   "src": "kamis_year",
+   "note": "고구마 밤 1kg",
+   "allergens": []
+  },
+  {
+   "id": "potato",
+   "name": {
+    "ko": "감자",
+    "en": "Potato",
+    "ja": "じゃがいも"
+   },
+   "unit": "g",
+   "price": 365,
+   "per": 100,
+   "buy": 1000,
+   "src": "kamis_year",
+   "note": "감자 수미(노지) 100g",
+   "allergens": []
+  },
+  {
+   "id": "cabbage",
+   "name": {
+    "ko": "양배추",
+    "en": "Cabbage",
+    "ja": "キャベツ"
+   },
+   "unit": "개",
+   "price": 3309,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "양배추 1포기",
+   "allergens": []
+  },
+  {
+   "id": "napa",
+   "name": {
+    "ko": "알배기배추",
+    "en": "Baby napa cabbage",
+    "ja": "ミニ白菜"
+   },
+   "unit": "개",
+   "price": 3145,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "알배기배추 1포기",
+   "allergens": []
+  },
+  {
+   "id": "spinach",
+   "name": {
+    "ko": "시금치",
+    "en": "Spinach",
+    "ja": "ほうれん草"
+   },
+   "unit": "g",
+   "price": 1160,
+   "per": 100,
+   "buy": 200,
+   "src": "kamis_year",
+   "note": "시금치 100g",
+   "allergens": []
+  },
+  {
+   "id": "lettuce",
+   "name": {
+    "ko": "상추",
+    "en": "Lettuce",
+    "ja": "サンチュ"
+   },
+   "unit": "g",
+   "price": 1227,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "상추 적 100g",
+   "allergens": []
+  },
+  {
+   "id": "cucumber",
+   "name": {
+    "ko": "오이",
+    "en": "Cucumber",
+    "ja": "きゅうり"
+   },
+   "unit": "개",
+   "price": 886,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "오이 다다기 10개 8,861원 ÷ 10",
+   "allergens": []
+  },
+  {
+   "id": "zucchini",
+   "name": {
+    "ko": "애호박",
+    "en": "Korean zucchini",
+    "ja": "ズッキーニ"
+   },
+   "unit": "개",
+   "price": 1598,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "애호박 1개",
+   "allergens": []
+  },
+  {
+   "id": "tomato",
+   "name": {
+    "ko": "토마토",
+    "en": "Tomato",
+    "ja": "トマト"
+   },
+   "unit": "g",
+   "price": 5107,
+   "per": 1000,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "토마토 1kg",
+   "allergens": [
+    "tomato"
+   ]
+  },
+  {
+   "id": "cherrytomato",
+   "name": {
+    "ko": "방울토마토",
+    "en": "Cherry tomato",
+    "ja": "ミニトマト"
+   },
+   "unit": "g",
+   "price": 8846,
+   "per": 1000,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "방울토마토 1kg",
+   "allergens": [
+    "tomato"
+   ]
+  },
+  {
+   "id": "radish",
+   "name": {
+    "ko": "무",
+    "en": "Korean radish",
+    "ja": "大根"
+   },
+   "unit": "개",
+   "price": 2470,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "무 가을 1개",
+   "allergens": []
+  },
+  {
+   "id": "carrot",
+   "name": {
+    "ko": "당근",
+    "en": "Carrot",
+    "ja": "にんじん"
+   },
+   "unit": "g",
+   "price": 3457,
+   "per": 1000,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "당근 무세척 1kg",
+   "allergens": []
+  },
+  {
+   "id": "onion",
+   "name": {
+    "ko": "양파",
+    "en": "Onion",
+    "ja": "玉ねぎ"
+   },
+   "unit": "g",
+   "price": 1993,
+   "per": 1000,
+   "buy": 1000,
+   "src": "kamis_year",
+   "note": "양파 1kg",
+   "allergens": []
+  },
+  {
+   "id": "greenonion",
+   "name": {
+    "ko": "대파",
+    "en": "Green onion",
+    "ja": "長ねぎ"
+   },
+   "unit": "g",
+   "price": 2911,
+   "per": 1000,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "대파 1kg",
+   "allergens": []
+  },
+  {
+   "id": "garlic",
+   "name": {
+    "ko": "깐마늘",
+    "en": "Peeled garlic",
+    "ja": "むきにんにく"
+   },
+   "unit": "g",
+   "price": 11488,
+   "per": 1000,
+   "buy": 200,
+   "src": "kamis_year",
+   "note": "깐마늘(국산) 1kg",
+   "allergens": []
+  },
+  {
+   "id": "ginger",
+   "name": {
+    "ko": "생강",
+    "en": "Ginger",
+    "ja": "しょうが"
+   },
+   "unit": "g",
+   "price": 15042,
+   "per": 1000,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "생강 국산 1kg",
+   "allergens": []
+  },
+  {
+   "id": "greenchili",
+   "name": {
+    "ko": "풋고추",
+    "en": "Green chili",
+    "ja": "青唐辛子"
+   },
+   "unit": "g",
+   "price": 1802,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "풋고추 100g",
+   "allergens": []
+  },
+  {
+   "id": "cheongyang",
+   "name": {
+    "ko": "청양고추",
+    "en": "Hot green chili",
+    "ja": "青陽唐辛子"
+   },
+   "unit": "g",
+   "price": 1410,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "청양고추 100g",
+   "allergens": []
+  },
+  {
+   "id": "bellpepper",
+   "name": {
+    "ko": "피망",
+    "en": "Green bell pepper",
+    "ja": "ピーマン"
+   },
+   "unit": "g",
+   "price": 1659,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "피망 청 100g",
+   "allergens": []
+  },
+  {
+   "id": "paprika",
+   "name": {
+    "ko": "파프리카",
+    "en": "Paprika (bell pepper)",
+    "ja": "パプリカ"
+   },
+   "unit": "개",
+   "price": 1721,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "파프리카 1개",
+   "allergens": []
+  },
+  {
+   "id": "eggplant",
+   "name": {
+    "ko": "가지",
+    "en": "Eggplant",
+    "ja": "なす"
+   },
+   "unit": "개",
+   "price": 793,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "가지 3개 2,378원 ÷ 3",
+   "allergens": []
+  },
+  {
+   "id": "perilla",
+   "name": {
+    "ko": "깻잎",
+    "en": "Perilla leaves",
+    "ja": "えごまの葉"
+   },
+   "unit": "g",
+   "price": 1426,
+   "per": 50,
+   "buy": 50,
+   "src": "kamis_year",
+   "note": "깻잎 50g",
+   "allergens": []
+  },
+  {
+   "id": "chives",
+   "name": {
+    "ko": "부추",
+    "en": "Garlic chives",
+    "ja": "ニラ"
+   },
+   "unit": "g",
+   "price": 803,
+   "per": 100,
+   "buy": 200,
+   "src": "kamis_year",
+   "note": "부추 100g",
+   "allergens": []
+  },
+  {
+   "id": "broccoli",
+   "name": {
+    "ko": "브로콜리",
+    "en": "Broccoli",
+    "ja": "ブロッコリー"
+   },
+   "unit": "개",
+   "price": 2615,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "브로콜리(국산) 1개",
+   "allergens": []
+  },
+  {
+   "id": "oystermush",
+   "name": {
+    "ko": "느타리버섯",
+    "en": "Oyster mushroom",
+    "ja": "ひらたけ"
+   },
+   "unit": "g",
+   "price": 1019,
+   "per": 100,
+   "buy": 200,
+   "src": "kamis_year",
+   "note": "느타리버섯 100g",
+   "allergens": []
+  },
+  {
+   "id": "enoki",
+   "name": {
+    "ko": "팽이버섯",
+    "en": "Enoki mushroom",
+    "ja": "えのき"
+   },
+   "unit": "g",
+   "price": 532,
+   "per": 150,
+   "buy": 150,
+   "src": "kamis_year",
+   "note": "팽이버섯 150g",
+   "allergens": []
+  },
+  {
+   "id": "kingoyster",
+   "name": {
+    "ko": "새송이버섯",
+    "en": "King oyster mushroom",
+    "ja": "エリンギ"
+   },
+   "unit": "g",
+   "price": 574,
+   "per": 100,
+   "buy": 200,
+   "src": "kamis_year",
+   "note": "새송이버섯 100g",
+   "allergens": []
+  },
+  {
+   "id": "beans",
+   "name": {
+    "ko": "흰콩",
+    "en": "Soybeans",
+    "ja": "大豆"
+   },
+   "unit": "g",
+   "price": 4987,
+   "per": 500,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "콩 흰 콩(국산) 500g",
+   "allergens": [
+    "soy"
+   ]
+  },
+  {
+   "id": "gochugaru",
+   "name": {
+    "ko": "고춧가루",
+    "en": "Chili flakes",
+    "ja": "粉唐辛子"
+   },
+   "unit": "g",
+   "price": 33134,
+   "per": 1000,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "고춧가루 국산 1kg",
+   "pantry": true,
+   "allergens": []
+  },
+  {
+   "id": "sesame",
+   "name": {
+    "ko": "참깨",
+    "en": "Sesame seeds",
+    "ja": "ごま"
+   },
+   "unit": "g",
+   "price": 17872,
+   "per": 500,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "참깨 백색(국산) 500g",
+   "pantry": true,
+   "allergens": []
+  },
+  {
+   "id": "peanut",
+   "name": {
+    "ko": "땅콩",
+    "en": "Peanuts",
+    "ja": "ピーナッツ"
+   },
+   "unit": "g",
+   "price": 1148,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "땅콩 수입 100g",
+   "allergens": [
+    "peanut"
+   ]
+  },
+  {
+   "id": "walnut",
+   "name": {
+    "ko": "호두",
+    "en": "Walnuts",
+    "ja": "くるみ"
+   },
+   "unit": "g",
+   "price": 2052,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "호두 수입 100g",
+   "allergens": [
+    "walnut"
+   ]
+  },
+  {
+   "id": "banana",
+   "name": {
+    "ko": "바나나",
+    "en": "Banana",
+    "ja": "バナナ"
+   },
+   "unit": "g",
+   "price": 325,
+   "per": 100,
+   "buy": 1000,
+   "src": "kamis_year",
+   "note": "바나나 수입 100g",
+   "allergens": []
+  },
+  {
+   "id": "apple",
+   "name": {
+    "ko": "사과",
+    "en": "Apple",
+    "ja": "りんご"
+   },
+   "unit": "개",
+   "price": 2733,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "사과 후지 10개 27,331원 ÷ 10",
+   "allergens": []
+  },
+  {
+   "id": "mackerel",
+   "name": {
+    "ko": "고등어",
+    "en": "Mackerel",
+    "ja": "さば"
+   },
+   "unit": "개",
+   "price": 3733,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "고등어 국산(냉동) 1마리 大",
+   "allergens": [
+    "mackerel"
+   ]
+  },
+  {
+   "id": "squid",
+   "name": {
+    "ko": "오징어",
+    "en": "Squid",
+    "ja": "いか"
+   },
+   "unit": "개",
+   "price": 4558,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "물오징어 연근해(냉동) 1마리 中",
+   "allergens": [
+    "squid"
+   ]
+  },
+  {
+   "id": "pollock",
+   "name": {
+    "ko": "동태(명태)",
+    "en": "Pollock",
+    "ja": "スケトウダラ"
+   },
+   "unit": "개",
+   "price": 2770,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "명태 냉동 1마리 中",
+   "allergens": []
+  },
+  {
+   "id": "shrimp",
+   "name": {
+    "ko": "새우",
+    "en": "Shrimp",
+    "ja": "えび"
+   },
+   "unit": "개",
+   "price": 527,
+   "per": 1,
+   "buy": 10,
+   "src": "kamis_year",
+   "note": "새우 흰다리(수입) 10마리 5,267원 ÷ 10",
+   "allergens": [
+    "shrimp"
+   ]
+  },
+  {
+   "id": "clam",
+   "name": {
+    "ko": "바지락",
+    "en": "Clams",
+    "ja": "あさり"
+   },
+   "unit": "g",
+   "price": 10588,
+   "per": 1000,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "바지락 냉장 1kg",
+   "allergens": [
+    "shellfish"
+   ]
+  },
+  {
+   "id": "anchovy",
+   "name": {
+    "ko": "마른멸치",
+    "en": "Dried anchovies",
+    "ja": "煮干し"
+   },
+   "unit": "g",
+   "price": 2838,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "마른멸치 중멸 100g",
+   "allergens": []
+  },
+  {
+   "id": "seaweed",
+   "name": {
+    "ko": "마른미역",
+    "en": "Dried seaweed",
+    "ja": "乾燥わかめ"
+   },
+   "unit": "g",
+   "price": 3019,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "마른미역 100g",
+   "allergens": []
+  },
+  {
+   "id": "gim",
+   "name": {
+    "ko": "구운김",
+    "en": "Roasted laver",
+    "ja": "焼きのり"
+   },
+   "unit": "개",
+   "price": 210,
+   "per": 1,
+   "buy": 10,
+   "src": "kamis_year",
+   "note": "구운김 10장 2,100원 ÷ 10",
+   "allergens": []
+  },
+  {
+   "id": "kelp",
+   "name": {
+    "ko": "건다시마",
+    "en": "Dried kelp",
+    "ja": "昆布"
+   },
+   "unit": "g",
+   "price": 3171,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "건다시마 완도산 100g",
+   "pantry": true,
+   "allergens": []
+  },
+  {
+   "id": "salt",
+   "name": {
+    "ko": "소금",
+    "en": "Salt",
+    "ja": "塩"
+   },
+   "unit": "g",
+   "price": 12400,
+   "per": 5000,
+   "buy": 5000,
+   "src": "kamis_year",
+   "note": "천일염 5kg",
+   "pantry": true,
+   "allergens": []
+  },
+  {
+   "id": "tofu",
+   "name": {
+    "ko": "두부",
+    "en": "Tofu",
+    "ja": "豆腐"
+   },
+   "unit": "g",
+   "price": 5067,
+   "per": 600,
+   "buy": 600,
+   "src": "kamis_year",
+   "note": "두부 국산콩 300g×2",
+   "allergens": [
+    "soy"
+   ]
+  },
+  {
+   "id": "sprouts",
+   "name": {
+    "ko": "콩나물",
+    "en": "Bean sprouts",
+    "ja": "豆もやし"
+   },
+   "unit": "g",
+   "price": 2490,
+   "per": 340,
+   "buy": 340,
+   "src": "kamis_year",
+   "note": "콩나물 국산콩 340g",
+   "allergens": [
+    "soy"
+   ]
+  },
+  {
+   "id": "kimchi",
+   "name": {
+    "ko": "김치",
+    "en": "Kimchi",
+    "ja": "キムチ"
+   },
+   "unit": "g",
+   "price": 29886,
+   "per": 2800,
+   "buy": 2800,
+   "src": "kamis_year",
+   "note": "포기김치 2.8kg (시판 김치는 새우젓이 흔해서 새우로 표시)",
+   "pantry": true,
+   "allergens": [
+    "shrimp"
+   ]
+  },
+  {
+   "id": "gochujang",
+   "name": {
+    "ko": "고추장",
+    "en": "Gochujang",
+    "ja": "コチュジャン"
+   },
+   "unit": "g",
+   "price": 16597,
+   "per": 1000,
+   "buy": 1000,
+   "src": "kamis_year",
+   "note": "태양초고추장 1kg",
+   "pantry": true,
+   "allergens": [
+    "soy",
+    "wheat"
+   ]
+  },
+  {
+   "id": "doenjang",
+   "name": {
+    "ko": "된장",
+    "en": "Doenjang (soybean paste)",
+    "ja": "テンジャン"
+   },
+   "unit": "g",
+   "price": 8131,
+   "per": 1000,
+   "buy": 1000,
+   "src": "kamis_year",
+   "note": "재래식 생된장 1kg",
+   "pantry": true,
+   "allergens": [
+    "soy"
+   ]
+  },
+  {
+   "id": "soysauce",
+   "name": {
+    "ko": "간장",
+    "en": "Soy sauce",
+    "ja": "醤油"
+   },
+   "unit": "g",
+   "price": 15425,
+   "per": 1700,
+   "buy": 1700,
+   "src": "kamis_year",
+   "note": "양조간장 1.7L (1ml≈1g로 계산)",
+   "pantry": true,
+   "allergens": [
+    "soy",
+    "wheat"
+   ]
+  },
+  {
+   "id": "instantrice",
+   "name": {
+    "ko": "즉석밥",
+    "en": "Instant rice",
+    "ja": "パックご飯"
+   },
+   "unit": "개",
+   "price": 1310,
+   "per": 1,
+   "buy": 8,
+   "src": "kamis_year",
+   "note": "즉석밥 210g×8개 10,482원 ÷ 8",
+   "allergens": []
+  },
+  {
+   "id": "porkshoulder",
+   "name": {
+    "ko": "돼지 앞다리살",
+    "en": "Pork shoulder",
+    "ja": "豚肩肉"
+   },
+   "unit": "g",
+   "price": 1677,
+   "per": 100,
+   "buy": 500,
+   "src": "kamis_live",
+   "note": "돼지 앞다리 100g",
+   "allergens": [
+    "pork"
+   ]
+  },
+  {
+   "id": "porkbelly",
+   "name": {
+    "ko": "삼겹살",
+    "en": "Pork belly",
+    "ja": "豚バラ"
+   },
+   "unit": "g",
+   "price": 2855,
+   "per": 100,
+   "buy": 500,
+   "src": "kamis_live",
+   "note": "돼지 삼겹살 100g",
+   "allergens": [
+    "pork"
+   ]
+  },
+  {
+   "id": "porkneck",
+   "name": {
+    "ko": "돼지 목살",
+    "en": "Pork collar",
+    "ja": "豚肩ロース"
+   },
+   "unit": "g",
+   "price": 2688,
+   "per": 100,
+   "buy": 500,
+   "src": "kamis_live",
+   "note": "돼지 목심 100g",
+   "allergens": [
+    "pork"
+   ]
+  },
+  {
+   "id": "beefbrisket",
+   "name": {
+    "ko": "소고기 양지",
+    "en": "Beef brisket",
+    "ja": "牛ばら肉"
+   },
+   "unit": "g",
+   "price": 6589,
+   "per": 100,
+   "buy": 300,
+   "src": "kamis_live",
+   "note": "소 양지 1등급 100g",
+   "allergens": [
+    "beef"
+   ]
+  },
+  {
+   "id": "beefround",
+   "name": {
+    "ko": "소고기 설도(불고기용)",
+    "en": "Beef round",
+    "ja": "牛もも肉"
+   },
+   "unit": "g",
+   "price": 4884,
+   "per": 100,
+   "buy": 300,
+   "src": "kamis_live",
+   "note": "소 설도 1등급 100g",
+   "allergens": [
+    "beef"
+   ]
+  },
+  {
+   "id": "chicken",
+   "name": {
+    "ko": "닭(볶음탕용)",
+    "en": "Whole chicken (cut)",
+    "ja": "鶏肉(ぶつ切り)"
+   },
+   "unit": "g",
+   "price": 5781,
+   "per": 1000,
+   "buy": 1000,
+   "src": "kamis_live",
+   "note": "닭 육계 1kg",
+   "allergens": [
+    "chicken"
+   ]
+  },
+  {
+   "id": "egg",
+   "name": {
+    "ko": "달걀",
+    "en": "Egg",
+    "ja": "卵"
+   },
+   "unit": "개",
+   "price": 422,
+   "per": 1,
+   "buy": 10,
+   "src": "kamis_live",
+   "note": "계란 특란 10구 4,216원 ÷ 10",
+   "allergens": [
+    "egg"
+   ]
+  },
+  {
+   "id": "milk",
+   "name": {
+    "ko": "우유",
+    "en": "Milk",
+    "ja": "牛乳"
+   },
+   "unit": "g",
+   "price": 2980,
+   "per": 1000,
+   "buy": 1000,
+   "src": "kamis_live",
+   "note": "흰우유 1L (1ml≈1g로 계산)",
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "chickenbreast",
+   "name": {
+    "ko": "닭가슴살",
+    "en": "Chicken breast",
+    "ja": "鶏むね肉"
+   },
+   "unit": "g",
+   "price": 9900,
+   "per": 1000,
+   "buy": 1000,
+   "src": "est",
+   "note": "냉동 닭가슴살 1kg (추정)",
+   "allergens": [
+    "chicken"
+   ]
+  },
+  {
+   "id": "tuna",
+   "name": {
+    "ko": "참치캔",
+    "en": "Canned tuna",
+    "ja": "ツナ缶"
+   },
+   "unit": "개",
+   "price": 2800,
+   "per": 1,
+   "buy": 1,
+   "src": "est",
+   "note": "참치캔 150g 1개 (추정)",
+   "allergens": [
+    "soy"
+   ]
+  },
+  {
+   "id": "oil",
+   "name": {
+    "ko": "식용유",
+    "en": "Cooking oil",
+    "ja": "サラダ油"
+   },
+   "unit": "g",
+   "price": 7500,
+   "per": 1800,
+   "buy": 1800,
+   "src": "est",
+   "note": "식용유 1.8L (추정)",
+   "pantry": true,
+   "allergens": []
+  },
+  {
+   "id": "sesameoil",
+   "name": {
+    "ko": "참기름",
+    "en": "Sesame oil",
+    "ja": "ごま油"
+   },
+   "unit": "g",
+   "price": 9000,
+   "per": 300,
+   "buy": 300,
+   "src": "est",
+   "note": "참기름 300ml (추정)",
+   "pantry": true,
+   "allergens": []
+  },
+  {
+   "id": "sugar",
+   "name": {
+    "ko": "설탕",
+    "en": "Sugar",
+    "ja": "砂糖"
+   },
+   "unit": "g",
+   "price": 2800,
+   "per": 1000,
+   "buy": 1000,
+   "src": "est",
+   "note": "설탕 1kg (추정)",
+   "pantry": true,
+   "allergens": []
+  },
+  {
+   "id": "oystersauce",
+   "name": {
+    "ko": "굴소스",
+    "en": "Oyster sauce",
+    "ja": "オイスターソース"
+   },
+   "unit": "g",
+   "price": 5000,
+   "per": 500,
+   "buy": 500,
+   "src": "est",
+   "note": "굴소스 500g (추정)",
+   "pantry": true,
+   "allergens": [
+    "shellfish",
+    "soy",
+    "wheat"
+   ]
+  },
+  {
+   "id": "pepper",
+   "name": {
+    "ko": "후추",
+    "en": "Black pepper",
+    "ja": "こしょう"
+   },
+   "unit": "g",
+   "price": 3500,
+   "per": 50,
+   "buy": 50,
+   "src": "est",
+   "note": "후추 50g (추정)",
+   "pantry": true,
+   "allergens": []
+  },
+  {
+   "id": "curry",
+   "name": {
+    "ko": "카레가루",
+    "en": "Curry powder",
+    "ja": "カレー粉"
+   },
+   "unit": "g",
+   "price": 2500,
+   "per": 100,
+   "buy": 100,
+   "src": "est",
+   "note": "카레가루 100g (추정)",
+   "allergens": [
+    "wheat",
+    "milk"
+   ]
+  },
+  {
+   "id": "oats",
+   "name": {
+    "ko": "오트밀",
+    "en": "Rolled oats",
+    "ja": "オートミール"
+   },
+   "unit": "g",
+   "price": 6000,
+   "per": 1000,
+   "buy": 1000,
+   "src": "est",
+   "note": "오트밀 1kg (추정)",
+   "allergens": []
+  },
+  {
+   "id": "kkwari",
+   "name": {
+    "ko": "꽈리고추",
+    "en": "Shishito pepper",
+    "ja": "ししとう"
+   },
+   "unit": "g",
+   "price": 1593,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "꽈리고추 100g",
+   "allergens": []
+  },
+  {
+   "id": "minari",
+   "name": {
+    "ko": "미나리",
+    "en": "Water parsley (minari)",
+    "ja": "セリ"
+   },
+   "unit": "g",
+   "price": 1611,
+   "per": 100,
+   "buy": 100,
+   "src": "kamis_year",
+   "note": "미나리 100g",
+   "allergens": []
+  },
+  {
+   "id": "eolgari",
+   "name": {
+    "ko": "얼갈이배추",
+    "en": "Young napa cabbage",
+    "ja": "若い白菜"
+   },
+   "unit": "g",
+   "price": 3159,
+   "per": 1000,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "얼갈이배추 1kg",
+   "allergens": []
+  },
+  {
+   "id": "babyoyster",
+   "name": {
+    "ko": "애느타리버섯",
+    "en": "Baby oyster mushroom",
+    "ja": "ひらたけ(小)"
+   },
+   "unit": "g",
+   "price": 616,
+   "per": 100,
+   "buy": 200,
+   "src": "kamis_year",
+   "note": "애느타리버섯 100g",
+   "allergens": []
+  },
+  {
+   "id": "zucchini2",
+   "name": {
+    "ko": "쥬키니",
+    "en": "Zucchini",
+    "ja": "ズッキーニ(西洋)"
+   },
+   "unit": "개",
+   "price": 1709,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "호박 쥬키니 1개",
+   "allergens": []
+  },
+  {
+   "id": "spanish",
+   "name": {
+    "ko": "삼치",
+    "en": "Spanish mackerel",
+    "ja": "サワラ"
+   },
+   "unit": "개",
+   "price": 6328,
+   "per": 1,
+   "buy": 1,
+   "src": "kamis_year",
+   "note": "삼치 냉동 1마리 中",
+   "allergens": []
+  },
+  {
+   "id": "mussel",
+   "name": {
+    "ko": "깐홍합",
+    "en": "Shelled mussels",
+    "ja": "むき身ムール貝"
+   },
+   "unit": "g",
+   "price": 2979,
+   "per": 100,
+   "buy": 200,
+   "src": "kamis_year",
+   "note": "홍합 깐홍합(냉장) 100g",
+   "allergens": [
+    "shellfish"
+   ]
+  },
+  {
+   "id": "cockle",
+   "name": {
+    "ko": "꼬막",
+    "en": "Cockles",
+    "ja": "赤貝(ハイガイ)"
+   },
+   "unit": "g",
+   "price": 8808,
+   "per": 1000,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "꼬막 국산(새꼬막) 1kg",
+   "allergens": [
+    "shellfish"
+   ]
+  },
+  {
+   "id": "scallop",
+   "name": {
+    "ko": "가리비",
+    "en": "Scallops",
+    "ja": "ホタテ"
+   },
+   "unit": "g",
+   "price": 6215,
+   "per": 1000,
+   "buy": 500,
+   "src": "kamis_year",
+   "note": "가리비 해만가리비 1kg",
+   "allergens": [
+    "shellfish"
+   ]
+  },
+  {
+   "id": "octopus",
+   "name": {
+    "ko": "낙지",
+    "en": "Small octopus",
+    "ja": "テナガダコ"
+   },
+   "unit": "g",
+   "price": 2153,
+   "per": 100,
+   "buy": 300,
+   "src": "kamis_year",
+   "note": "낙지 수입(냉동) 100g",
+   "allergens": []
+  },
+  {
+   "id": "mackfillet",
+   "name": {
+    "ko": "고등어 필렛",
+    "en": "Mackerel fillet",
+    "ja": "さばフィレ"
+   },
+   "unit": "g",
+   "price": 19150,
+   "per": 1000,
+   "buy": 300,
+   "src": "kamis_year",
+   "note": "고등어필렛 수입 1kg",
+   "allergens": [
+    "mackerel"
+   ]
+  },
+  {
+   "id": "mixgrain",
+   "name": {
+    "ko": "혼합잡곡",
+    "en": "Mixed grains",
+    "ja": "雑穀"
+   },
+   "unit": "g",
+   "price": 7693,
+   "per": 1000,
+   "buy": 1000,
+   "src": "kamis_year",
+   "note": "혼식곡 국산 1kg",
+   "allergens": []
+  },
+  {
+   "id": "importbelly",
+   "name": {
+    "ko": "수입 삼겹살",
+    "en": "Imported pork belly",
+    "ja": "輸入豚バラ"
+   },
+   "unit": "g",
+   "price": 1511,
+   "per": 100,
+   "buy": 500,
+   "src": "kamis_live",
+   "note": "수입 돼지고기 삼겹살 100g (2026-10-16)",
+   "allergens": [
+    "pork"
+   ]
+  }
+ ]
+}
