@@ -9,7 +9,8 @@
 </head>
 <body>
 <main class="stack doc">
-  <p><a class="link" href="./">← 애옹사주로 돌아가기</a></p>
+  <p id="back"><a class="link" href="./">← 애옹사주로 돌아가기</a></p>
+  <script>if (!document.referrer) document.getElementById("back").hidden = true; // 웹 주소로 바로 열면(앞 페이지 없음) 돌아갈 곳이 없다(B07)</script>
   <h1 class="h2">개인정보처리방침</h1>
   <p class="sub">시행일: 2026년 11월 9일</p>
 
