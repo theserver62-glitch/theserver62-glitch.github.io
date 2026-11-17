@@ -21,80 +21,86 @@ nav a{margin-right:12px}
 
 <article id="ko" lang="ko">
 <h1>둘이그려 개인정보처리방침</h1>
-<p class="muted">시행일 2026년 10월 29일 · 적용 대상: 둘이그려 Android 앱</p>
+<p class="muted">시행일 2026년 11월 17일 · 적용 대상: 둘이그려 Android·iPhone 앱</p>
 <section><h2>1. 수집하는 정보</h2>
-<p>회원가입이 없고 이름·이메일·전화번호·위치·연락처·광고 ID를 받지 않아요. 앱이 동작하는 데 꼭 필요한 아래 정보만 서버에 저장해요.</p>
+<p>회원가입이 없고 이름·이메일·전화번호·정확한 위치·연락처를 받지 않아요. 광고 ID는 아래 광고에만 쓰여요. 앱이 동작하는 데 꼭 필요한 아래 정보만 서버에 저장해요.</p>
 <ul>
 <li><b>기기 식별값</b>: 앱을 처음 켤 때 만든 무작위 번호와, 결제 확인에만 쓰는 공개 번호. 사람과 연결되는 정보는 없어요.</li>
 <li><b>연결 코드</b>: 두 사람을 잇는 6자리 코드.</li>
+<li><b>틀린 코드 입력 기록</b>: 연결 코드를 틀리게 넣으면, 남의 코드를 맞히는 것을 막으려고 접속 IP 주소를 10분 동안만 저장한 뒤 지워요.</li>
 <li><b>푸시 토큰</b>: 새 그림이 왔을 때 휴대폰을 깨우기 위한 Firebase 푸시 주소.</li>
 <li><b>주고받은 그림</b>: 무료는 커플마다 <b>최근 20장</b>만 남기고 오래된 것부터 지워요. 프리미엄은 연결을 끊을 때까지 보관해요.</li>
 <li><b>구매 내역</b> (프리미엄을 산 경우만): 구독이 살아 있는지 확인하기 위한 정보. 카드 번호는 Google이 처리하고 우리는 받지 않아요.</li>
 </ul></section>
-<section><h2>2. 이용 목적</h2><p>두 사람 연결, 그림 전달, 홈화면 위젯 갱신에만 써요. 광고·분석·추적 도구는 쓰지 않아요.</p></section>
+<section><h2>2. 이용 목적</h2><p>두 사람 연결, 그림 전달, 홈화면 위젯 갱신, 코드 맞히기 막기에만 써요. 앱 화면 아래 배너와 그림을 보낸 뒤 하루 1번 이하 전면 광고를 보여 줘요. 광고는 Google AdMob이 기기의 광고 ID로 보여 주며, 휴대폰 설정 → Google → 광고에서 광고 ID를 지우거나 맞춤 광고를 끌 수 있어요. 홈화면 위젯에는 광고가 없어요. 우리가 따로 넣은 분석·추적 도구는 없어요. 다만 AdMob이 광고 성과와 앱 성능을 재려고 4번의 정보를 모아요.</p></section>
 <section><h2>3. 보관 기간과 삭제</h2>
-<p>앱 위쪽 연결 상태(♥ 짝꿍과 연결됨)를 눌러 <b>‘연결 끊기’</b>를 하면 두 사람의 그림과 연결 정보, 내 기기 식별값·푸시 토큰이 서버에서 바로 지워져요. 앱만 삭제하면 서버 정보가 남으니, 삭제 전에 이 버튼을 누르거나 아래 이메일로 요청해 주세요 (7일 안에 지워요).</p></section>
+<p>앱 위쪽 연결 상태(♥ 짝꿍과 연결됨)를 눌러 <b>‘연결 끊기’</b>를 하면 두 사람의 그림과 연결 정보, 내 기기 식별값·푸시 토큰이 서버에서 바로 지워져요(그 뒤 앱을 계속 쓰면 새 무작위 번호로 다시 시작해요). 짝꿍과 연결되지 않은 기기 정보와 짝꿍을 기다리는 코드는 <b>30일 동안 앱을 열지 않으면</b> 자동으로 지워요. 짝꿍과 연결된 채 앱만 지우면 짝꿍이 ‘연결 끊기’를 할 때까지 두 사람의 연결과 그림이 남으니, 앱을 지우기 전에 이 버튼을 눌러 주세요. 문의는 아래 이메일로 받아요.</p></section>
 <section><h2>4. 처리를 맡기는 곳 (위탁·국외 이전)</h2>
 <ul>
 <li><b>Supabase Inc.</b> — 서버와 데이터베이스 운영. 저장 위치: 대한민국(서울) 리전. 위 1번 정보 전부.</li>
-<li><b>Google LLC (미국)</b> — Firebase Cloud Messaging으로 푸시 전달(푸시 토큰), Google Play 결제(프리미엄 구매 시).</li>
+<li><b>Google LLC (미국)</b> — Firebase Cloud Messaging으로 푸시 전달(푸시 토큰), Google Play 결제(프리미엄 구매 시), Google AdMob 광고(광고 ID·앱 세트 ID, IP로 추정한 대략적 위치, 광고를 보거나 누른 기록, 앱 성능 진단 정보).</li>
 <li><b>RevenueCat, Inc. (미국)</b> — 프리미엄 구독 확인. 결제용 공개 번호와 구매 내역만 (프리미엄 판매를 시작한 뒤).</li>
 </ul>
 <p>모든 전송은 HTTPS로 암호화돼요. 이 밖의 제3자에게 제공하지 않아요.</p></section>
 <section><h2>5. 아동</h2><p>만 14세 미만을 대상으로 하지 않아요.</p></section>
 <section><h2>6. 개인정보 보호책임자·문의</h2><p>권주열 · theserver62@gmail.com<br>방침이 바뀌면 이 페이지를 먼저 고치고 시행일을 바꿔요.</p></section>
+<section><h2>7. 아이폰 앱</h2><p>아이폰 앱에는 광고, 푸시 알림, 결제가 없어요. 그래서 광고 ID와 푸시 토큰을 받지 않고, Google(Firebase·AdMob·Play 결제)에 아무것도 보내지 않아요. 무작위 기기 번호는 아이폰 키체인(이 기기에만)에, 받은 그림과 D-day는 앱과 홈 화면 위젯이 같이 쓰는 기기 안 저장소에 둬요. 짝꿍과 연결돼 있으면 위젯도 30분쯤마다 이 기기 번호로 서버에서 새 그림을 받아 와요. 서버에 저장하는 정보와 보관·삭제, Supabase 위탁은 위 1·3·4번과 같아요.</p></section>
 </article>
 
 <article id="en" lang="en">
 <h1>Doodle for Two Privacy Policy</h1>
-<p class="muted">Effective October 29, 2026 · Applies to: Doodle for Two Android app</p>
+<p class="muted">Effective November 17, 2026 · Applies to: Doodle for Two Android and iPhone apps</p>
 <section><h2>1. What we collect</h2>
-<p>There is no sign-up. We do not collect your name, email, phone number, location, contacts or advertising ID. We store only what the app needs to work:</p>
+<p>There is no sign-up. We do not collect your name, email, phone number, precise location or contacts. The advertising ID is used only for the ads below. We store only what the app needs to work:</p>
 <ul>
 <li><b>Device identifiers</b>: a random number created when you first open the app, and a public number used only to check purchases. Neither is linked to who you are.</li>
 <li><b>Pairing code</b>: the 6-character code that connects two people.</li>
+<li><b>Wrong-code attempts</b>: if a pairing code is entered wrong, we keep the IP address for 10 minutes only, to stop people guessing other couples' codes, and then delete it.</li>
 <li><b>Push token</b>: a Firebase push address used to wake your phone when a new doodle arrives.</li>
 <li><b>Shared doodles</b>: free couples keep the <b>latest 20</b>; older ones are deleted. Premium keeps them until you disconnect.</li>
 <li><b>Purchase history</b> (only if you buy Premium): used to check your subscription. Google handles card details; we never receive them.</li>
 </ul></section>
-<section><h2>2. Why</h2><p>Only to connect two people, deliver doodles and update the home screen widget. No ads, analytics or tracking.</p></section>
+<section><h2>2. Why</h2><p>Only to connect two people, deliver doodles, update the home screen widget and stop code guessing. We show a banner at the bottom of the app and at most one full-screen ad a day after you send a doodle. Ads are served by Google AdMob using your device advertising ID; you can reset it or turn off personalized ads in Settings → Google → Ads. The home screen widget has no ads. We add no analytics or tracking tools of our own; AdMob collects the information in section 4 to measure ads and app performance.</p></section>
 <section><h2>3. Retention and deletion</h2>
-<p>Tap the connection status at the top of the app, then <b>“Disconnect”</b>, to immediately delete both people’s doodles, the connection, and your device identifier and push token from the server. Uninstalling alone leaves server data, so tap the button first or email us (deleted within 7 days).</p></section>
-<section><h2>4. Service providers</h2>
+<p>Tap the connection status at the top of the app, then <b>“Disconnect”</b>, to immediately delete both people’s doodles, the connection, and your device identifier and push token from the server (if you keep using the app, it starts again with a new random number). Device data not connected to a partner, and codes still waiting for a partner, are deleted automatically <b>after 30 days without opening the app</b>. If you uninstall while connected, the connection and doodles stay until your partner taps “Disconnect”, so please tap the button before uninstalling. For questions, email us below.</p></section>
+<section><h2>4. Service providers (including transfers abroad)</h2>
 <ul>
 <li><b>Supabase Inc.</b> — server and database. Region: South Korea (Seoul). All data in section 1.</li>
-<li><b>Google LLC (USA)</b> — push delivery via Firebase Cloud Messaging (push token) and Google Play billing (Premium purchases).</li>
+<li><b>Google LLC (USA)</b> — push delivery via Firebase Cloud Messaging (push token) and Google Play billing (Premium purchases) and Google AdMob ads (advertising ID and app set ID, approximate location estimated from IP address, ad views and taps, app performance diagnostics).</li>
 <li><b>RevenueCat, Inc. (USA)</b> — Premium subscription checks: the public purchase number and purchase history only (after Premium sales start).</li>
 </ul>
 <p>All transfers are encrypted with HTTPS. We share data with no one else.</p></section>
 <section><h2>5. Children</h2><p>The app is not directed to children under 14.</p></section>
 <section><h2>6. Contact</h2><p>Juyeol Kwon (권주열) · theserver62@gmail.com<br>If this policy changes, we update this page and the effective date first.</p></section>
+<section><h2>7. iPhone app</h2><p>The iPhone app has no ads, push notifications or purchases. So it collects no advertising ID or push token and sends nothing to Google (Firebase, AdMob, Play billing). The random device number is kept in the iPhone Keychain (this device only), and received doodles and the D-day are kept in on-device storage shared by the app and its home screen widget. While you are connected, the widget also fetches the latest doodle from the server with this device number about every 30 minutes. What the server stores, retention and deletion, and Supabase as a provider are the same as sections 1, 3 and 4.</p></section>
 </article>
 
 <article id="ja" lang="ja">
 <h1>ふたりらくがき プライバシーポリシー</h1>
-<p class="muted">施行日 2026年10月29日 ・ 対象: ふたりらくがき Android アプリ</p>
+<p class="muted">施行日 2026年11月17日 ・ 対象: ふたりらくがき Android・iPhone アプリ</p>
 <section><h2>1. 取得する情報</h2>
-<p>会員登録はなく、氏名・メール・電話番号・位置情報・連絡先・広告IDは取得しません。アプリの動作に必要な次の情報だけをサーバーに保存します。</p>
+<p>会員登録はなく、氏名・メール・電話番号・正確な位置情報・連絡先は取得しません。広告IDは下記の広告にのみ使われます。アプリの動作に必要な次の情報だけをサーバーに保存します。</p>
 <ul>
 <li><b>端末識別子</b>: アプリを初めて開いたときに作るランダムな番号と、購入確認にだけ使う公開番号。個人とは結びつきません。</li>
-<li><b>接続コード</b>: 二人をつなぐ6桁のコード。</li>
+<li><b>接続コード</b>: 二人をつなぐ6文字のコード。</li>
+<li><b>誤ったコード入力の記録</b>: 接続コードを間違えて入力した場合、他人のコードの推測を防ぐため、接続元のIPアドレスを10分間だけ保存し、その後削除します。</li>
 <li><b>プッシュトークン</b>: 新しい絵が届いたときに端末を起こすための Firebase のプッシュ宛先。</li>
 <li><b>やりとりした絵</b>: 無料は二人ごとに<b>最新20枚</b>だけ残し、古いものから削除します。プレミアムは接続を解除するまで保存します。</li>
 <li><b>購入履歴</b>（プレミアム購入時のみ）: 購読の確認に使います。カード情報は Google が処理し、私たちは受け取りません。</li>
 </ul></section>
-<section><h2>2. 利用目的</h2><p>二人の接続、絵の配信、ホーム画面ウィジェットの更新のみに使います。広告・分析・追跡ツールは使いません。</p></section>
+<section><h2>2. 利用目的</h2><p>二人の接続、絵の配信、ホーム画面ウィジェットの更新、コードの推測防止のみに使います。アプリ画面下部のバナーと、絵を送った後に1日1回までの全画面広告を表示します。広告は Google AdMob が端末の広告IDを使って配信します。設定 → Google → 広告 で広告IDのリセットやパーソナライズ広告の無効化ができます。ホーム画面ウィジェットに広告はありません。独自の分析・追跡ツールは使いません。ただし AdMob が広告の効果とアプリの性能を測るため、4 の情報を収集します。</p></section>
 <section><h2>3. 保存期間と削除</h2>
-<p>アプリ上部の接続状態を押して<b>「接続を解除」</b>すると、二人の絵と接続情報、端末識別子・プッシュトークンがサーバーからすぐに削除されます。アプリを削除するだけではサーバーの情報は残るため、先にこのボタンを押すか、下記メールでご依頼ください（7日以内に削除）。</p></section>
+<p>アプリ上部の接続状態を押して<b>「接続を解除」</b>すると、二人の絵と接続情報、端末識別子・プッシュトークンがサーバーからすぐに削除されます（その後もアプリを使うと、新しいランダムな番号で始まります）。パートナーとつながっていない端末の情報と、相手を待っているコードは、<b>30日間アプリを開かないと</b>自動で削除します。つながったままアプリだけを削除すると、パートナーが「接続を解除」するまで二人の接続と絵が残るため、削除の前にこのボタンを押してください。お問い合わせは下記メールへ。</p></section>
 <section><h2>4. 委託先（国外移転を含む）</h2>
 <ul>
 <li><b>Supabase Inc.</b> — サーバーとデータベース。保存場所: 韓国（ソウル）リージョン。上記1の情報すべて。</li>
-<li><b>Google LLC（米国）</b> — Firebase Cloud Messaging によるプッシュ配信（プッシュトークン）、Google Play 決済（プレミアム購入時）。</li>
+<li><b>Google LLC（米国）</b> — Firebase Cloud Messaging によるプッシュ配信（プッシュトークン）、Google Play 決済（プレミアム購入時）、Google AdMob 広告（広告ID・アプリセットID、IPアドレスから推定したおおよその位置、広告の表示・タップ、アプリのパフォーマンス診断情報）。</li>
 <li><b>RevenueCat, Inc.（米国）</b> — プレミアム購読の確認。購入確認用の公開番号と購入履歴のみ（プレミアム販売開始後）。</li>
 </ul>
 <p>通信はすべて HTTPS で暗号化されます。これ以外の第三者には提供しません。</p></section>
 <section><h2>5. 子ども</h2><p>14歳未満を対象としていません。</p></section>
 <section><h2>6. お問い合わせ</h2><p>クォン・ジュヨル（권주열） ・ theserver62@gmail.com<br>方針を変更する場合は、先にこのページと施行日を更新します。</p></section>
+<section><h2>7. iPhone アプリ</h2><p>iPhone アプリには広告・プッシュ通知・決済がありません。そのため広告IDとプッシュトークンは取得せず、Google（Firebase・AdMob・Play 決済）には何も送りません。ランダムな端末番号は iPhone のキーチェーン（この端末のみ）に、届いた絵と D-day はアプリとホーム画面ウィジェットが共有する端末内の保存領域に置きます。パートナーとつながっている間は、ウィジェットも約30分ごとにこの端末番号でサーバーから新しい絵を受け取ります。サーバーに保存する情報、保存期間と削除、Supabase への委託は上記1・3・4と同じです。</p></section>
 </article>
 </main>
 </body>
